@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import WebNav from './WebNav'
 import ScrollableAnchor from 'react-scrollable-anchor'
-
+import {Col, Button} from 'react-bootstrap'
 class WebPage extends Component {
  
 
@@ -26,7 +26,10 @@ class WebPage extends Component {
                 <ScrollableAnchor id={'section1'}>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg fancy">
+                    <Col lg={5} className="fancy">
+                        
+
+                   
                         <h3>Languages</h3>
                         <ul>
                             <li>Javascript</li>
@@ -35,7 +38,7 @@ class WebPage extends Component {
                             <li>PHP</li>
                             <li>HTML/CSS</li>
                         </ul>
-                        <h3>Frameworks</h3>
+                        <h3>Frameworks + Other</h3>
                         <ul>
                             <li>Wordpress</li>
                             <li>React</li>
@@ -54,13 +57,55 @@ class WebPage extends Component {
                             <li>API's</li>
                             <li>And More...</li>
                         </ul>
-                        </div>
-                        <div class="col-lg">
-                        <h2 id="about-title">About</h2>
-                        </div>
+                       
+                    </Col>
+
+                    <Col lg={7}>
+                        <h2 id="about-title">About Me</h2>
+                        <br/>
+                        <p>Firstly some background so that you understand where I am coming from.  I am an American 
+                            citizen and have been privileged to have also lived abroad for many years.  I graduated 
+                            from the top all-girls school in New Zealand and spent 2 years as a professional Equestrian
+                            rider, competing internationally throughout Europe.  I was on track for the Olympics 
+                            until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
+                            mine, programming and completed Flatiron’s Full-Stack Engineering Bootcamp in San Francisco. </p>
+
+                            <p>Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
+                                and more. Examples are below.</p>
+
+                                <Button variant="secondary">Contact Me</Button> <Button variant="secondary">My Portfolio</Button>
+                        </Col>
                     </div>
                 </div>
                 </ScrollableAnchor>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+                <div class="container">
+                    <div class="row">
+                    <Col lg={6}>
+                       <img />
+                    </Col>
+
+                    <Col lg={6}>
+                        <h2 id="about-title">Currently Working on</h2>
+                        <br/>
+                        <p>Firstly some background so that you understand where I am coming from.  I am an American 
+                            citizen and have been privileged to have also lived abroad for many years.  I graduated 
+                            from the top all-girls school in New Zealand and spent 2 years as a professional Equestrian
+                            rider, competing internationally throughout Europe.  I was on track for the Olympics 
+                            until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
+                            mine, programming and completed Flatiron’s Full-Stack Engineering Bootcamp in San Francisco. </p>
+
+                            <p>Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
+                                and more. Examples are below.</p>
+
+                                <Button variant="secondary">Contact Me</Button> <Button variant="secondary">My Portfolio</Button>
+                        </Col>
+                    </div>
+                </div>
 
 
 
