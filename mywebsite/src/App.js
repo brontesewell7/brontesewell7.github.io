@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, useHistory, Redirect, Route, Switch } from 'react-router-dom'
-import EquestrianPage from './components/EquestrianPage'
-import WebPage from './components/WebPage'
+import EquestrianPage from './components/Equestrian/EquestrianPage'
+import WebPage from './components/Web/WebPage'
 import LandingPage from './components/LandingPage'
 
 function App(props) {
