@@ -120,7 +120,7 @@
   color: #5a5a5c;
   padding-left: 30px !important;
   box-sizing: border-box;
-  background-color: #E4E4D9;
+  background-color: rgb(238, 236, 236);
   background-image: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgb(189, 184, 184) 90%),
                     /* linear-gradient( 90deg, rgba(0,0,0,0) 95%, rgb(59, 59, 58) 95%), */
                     
@@ -138,4 +138,84 @@
 
 li{
   list-style: none;
+  font-weight: 350;
+  font-family: sans-serif;
+}
+
+#parenting-image{
+  width: 100%;
+}
+
+.social-icon-web{
+  margin-left: 5px !important;
+}
+
+.social-icon-web-1{
+  margin-left: 31%;
+}
+
+
+#about-text{
+font-family: sans-serif;
+font-size: 20px;
+text-align: justify;
+font-weight: 200;
+}
+
+.about{
+  margin-left: 40px;
+}
+
+.about-div{
+  background-image: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-attachment: fixed;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-position: bottom center;
+}
+
+.about-blur{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px); 
+}
+
+#about-title{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+}
+
+
+
+.skills-title{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+}
+
+
+#text-current-p{
+  text-align: justify;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+#services-title{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+}
+
+.current-work-div{
+  background-color: rgb(238, 236, 236);
+}
+.services-div{
+  background-image: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-attachment: fixed;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-position: bottom center;
+}
+
+.services-blur{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px); 
 }
