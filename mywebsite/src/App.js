@@ -1,22 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import horse from './horse.png'
-function App() {
+import { BrowserRouter as Router, useHistory, Redirect, Route, Switch } from 'react-router-dom'
+import EquestrianPage from './components/EquestrianPage'
+import WebPage from './components/WebPage'
+import LandingPage from './components/LandingPage'
+
+function App(props) {
+  
   return (
-    <div className="App">
+      <Router>
+           
+        <Switch>
+          <Route exact path='/' component={LandingPage}/>
+          <Route exact path='/equestrian' component={EquestrianPage} />
+          <Route exact path='/web-development' component={WebPage} />
+        </Switch>
 
-        <div class="wrapper">
-          <img src={horse}/>
-          <img src="https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
-          <h1 id="landing-title">Bronte Sewell</h1>
-         
-        <a id="equestrian-link" href='/equestrian'>Equestrian</a>
-
-        <a id="web-dev-link" href='/web-developement'>Web Development and Design</a>
-        </div>
-    </div>
+      </Router>
   );
 }
 
