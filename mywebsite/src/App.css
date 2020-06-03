@@ -17,7 +17,7 @@ img:nth-of-type(2) {
   text-align: center;
   padding-top: 20%;
   color: rgb(221, 219, 219);
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 100px !important;
 }
 
@@ -27,7 +27,7 @@ img:nth-of-type(2) {
   float: right;
   margin-top: 10%;
   color: rgb(221, 219, 219);
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 30px !important;
 }
 
@@ -37,7 +37,7 @@ img:nth-of-type(2) {
   margin-top: -310px;
   float: left;
   color: rgb(221, 219, 219);
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 30px !important;
 }
 
@@ -45,11 +45,13 @@ img:nth-of-type(2) {
   text-decoration: none;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 #web-top-image{
   margin-top: -0px;
   position: relative;
+  filter: brightness(67%);
 }
 
 .nav-links{
@@ -60,4 +62,50 @@ img:nth-of-type(2) {
   font-family: 'Abril Fatface', cursive;
   font-size: 40px !important;
   color: rgb(59, 59, 58) !important;
+}
+
+
+
+
+
+.quote-home-image{
+  color:#ccc;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+#quote-over-images{
+  position: absolute;
+  top: 55%;
+  left: 650px;
+  width: 60%;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+#button-image-home{
+  color: #ccc;
+  background-color: none;
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 2px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 35%;
+}
+
+
+#button-image-home:hover{
+  color: #ccc;
+  background-color: rgb(59, 59, 58) ;
+  border-style: solid;
+  border-color: rgb(59, 59, 58) ;
+  border-radius: 2px;
+  text-decoration: none;
 }
