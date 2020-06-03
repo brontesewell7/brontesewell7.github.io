@@ -219,3 +219,70 @@ font-weight: 200;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(2px); 
 }
+
+
+
+
+#send-gmail-contact a{
+  background-color: #6C757D;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 40px;
+  margin-bottom: 5%;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 3%;
+}
+
+#send-gmail-contact input{
+border-style: solid;
+border-color: #5a5a5c;
+border-radius: 3px;
+border-width: thin;
+margin-bottom: 2px;
+margin-left: 4%;
+}
+
+#send-gmail-contact textarea{
+  border-style: solid;
+  border-color: #5a5a5c;
+  border-radius: 3px;
+  margin-left: 3%;
+}
+
+
+#send-gmail-contact{
+  width: 40%;
+  height: 80%;
+  margin-left: 30%;
+}
+
+
+#contact-title{
+  padding-top: 70px;
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+}
+
+.contact-info{
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.contact-options{
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+
+#services-subtitle{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+}
+
+.service-image{
+  width: 100% !important;
+}

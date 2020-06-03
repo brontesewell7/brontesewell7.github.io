@@ -7,6 +7,8 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import {Col, Button} from 'react-bootstrap'
 import photoparenting from '../../photoparenting.jpeg'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
+import ReactContactForm from 'react-mail-form';
+
 class WebPage extends Component {
  
 
@@ -142,40 +144,63 @@ class WebPage extends Component {
 <div class="container">
                     <div class="row">
                         <div class="col-lg">
-                        <h4 id="world-map-text">Wordpress Development</h4>
-                    
+                        <h4 id="services-subtitle"> <i class="fab fa-wordpress"></i> Wordpress Development</h4>
                         </div>
                         <div class="col-lg">
-                        <h4 id="world-map-text">Full Stack Web Application</h4>
+                        <h4 id="services-subtitle"> <i class="fas fa-code"></i> Full Stack Web Application</h4>
                         </div>
+                        <div class="col-lg">
+                                 <h4 id="services-subtitle"><i class="fas fa-wrench"></i> Web Maintenance</h4>
+                                 </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg">
-                        <h4 id="world-map-text">Mobile Application</h4>
-                    
+                        <h4 id="services-subtitle"><i class="fas fa-mobile-alt"></i> Mobile Application</h4>
                         </div>
                         <div class="col-lg">
-                                 <h4 id="world-map-text">Web Design/Wireframes</h4>
+                                 <h4 id="services-subtitle"><i class="fab fa-adobe"></i>Web Design/Wireframes</h4>
+                                
+                        </div>
+                        <div class="col-lg">
+                        <h4 id="services-subtitle"><i class="fas fa-camera"></i>Photography</h4>
+                       
                         </div>
                     </div>
                 </div>
+                </div>
+                <br></br>
+                <br></br>
+                </div>
+                <br></br>
+                <br></br>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg">
-                                 <h4 id="world-map-text">Web Maintenance</h4>
+                            <div id="send-gmail-contact"> 
+                                <h5 className="contact-options">Email me on your Gmail:</h5>
+                            < ReactContactForm to="jumpinggirlnz@icloud.com" />
+                            </div>                    
                         </div>
                         <div class="col-lg">
-                        <h4 id="world-map-text">Photography</h4>
+                        <h3 id="contact-title">Contact Me</h3>
+                        <br/>
+                        <h4 className="contact-info">Email: brontsewell7@gmail.com</h4>
+                        <h4 className="contact-info">Location: San Francisco, California</h4>
+                        <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
 
-
+                <br></br>
+                <br></br>
+                <br></br>
                 <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
             </div>
         );
     }
