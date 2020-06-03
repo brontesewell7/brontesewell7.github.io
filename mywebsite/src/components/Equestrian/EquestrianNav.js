@@ -1,6 +1,6 @@
 import { Nav, Navbar,} from 'react-bootstrap'
 import React, { Component } from 'react';
-
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const EquestrianNav = () =>  {
         return (
@@ -12,17 +12,19 @@ const EquestrianNav = () =>  {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                        <Nav.Link  className="nav-links" href="/">HOME</Nav.Link>
-                        <Nav.Link className="nav-links" href="/signin-user">LOGIN</Nav.Link>
-                        <Nav.Link  className="nav-links" href="/signup-user">JOIN NOW</Nav.Link>
-                        <Nav.Link  className="nav-links" href="/contact-us">CONTACT US</Nav.Link>
+                        <Nav.Link  className="nav-links" href="#">HOME</Nav.Link>
+                        <Nav.Link className="nav-links" href="#">ABOUT</Nav.Link>
+                        <Nav.Link  className="nav-links" href="#">LESSONS</Nav.Link>
+                        <Nav.Link  className="nav-links" href="#">HORSE SCHOOLING</Nav.Link>
+                        <Nav.Link  className="nav-links" href="#">SELLING HORSES</Nav.Link>
+                        <Nav.Link  className="nav-links" href="#">BUYING HORSES</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     </Navbar>
        
              </nav>
 
-             
+
         );
     }
 

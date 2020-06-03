@@ -46,3 +46,18 @@ img:nth-of-type(2) {
   background-color: white;
   color: black;
 }
+
+#web-top-image{
+  margin-top: -0px;
+  position: relative;
+}
+
+.nav-links{
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px !important;
+  color: rgb(59, 59, 58) !important;
+}

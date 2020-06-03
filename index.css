@@ -33,3 +33,14 @@
 	color: #FF7F50;
 	transition-timing-function: ease;
 }
+
+.top-home-image{
+  object-fit: cover;
+  width: 100%;
+  height: 650px;
+}
+
+#navbar-web {
+background-color: transparent;
+}
+

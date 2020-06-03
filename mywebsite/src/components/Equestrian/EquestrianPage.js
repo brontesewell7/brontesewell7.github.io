@@ -15,8 +15,10 @@ class EquestrianPage extends Component {
             <div >
 
                 <EquestrianNav />
-            <h2>Hello</h2>
-            <button type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
+                <br/>
+                <br/>
+            <h2 style={{textAlign: 'center'}}>Coming Soon...</h2>
+            <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
 
             </div>
         );
