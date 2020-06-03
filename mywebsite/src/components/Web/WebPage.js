@@ -143,29 +143,51 @@ class WebPage extends Component {
 <br></br>
 <div class="container">
                     <div class="row">
-                        <div class="col-lg">
-                        <h4 id="services-subtitle"> <i class="fab fa-wordpress"></i> Wordpress Development</h4>
+                        <div class="col-lg service-div">
+                        <h4 id="services-subtitle"> Wordpress Development</h4>
+                        <i class="service-icons fab fa-wordpress"></i> 
+                        <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                         </div>
-                        <div class="col-lg">
-                        <h4 id="services-subtitle"> <i class="fas fa-code"></i> Full Stack Web Application</h4>
+                        <div class="col-lg service-div">
+                        <h4 id="services-subtitle">  Full Stack Web Application</h4>
+                        <i class="service-icons fas fa-code"></i>
+                        <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                         </div>
-                        <div class="col-lg">
-                                 <h4 id="services-subtitle"><i class="fas fa-wrench"></i> Web Maintenance</h4>
+                        <div class="col-lg service-div">
+                                 <h4 id="services-subtitle">Web Maintenance</h4>
+                                 <i class="service-icons fas fa-wrench"></i> 
+                                 <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                                  </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg">
-                        <h4 id="services-subtitle"><i class="fas fa-mobile-alt"></i> Mobile Application</h4>
+                        <div class="col-lg service-div">
+                        <h4 id="services-subtitle"> Mobile Application</h4>
+                        <i class="service-icons fas fa-mobile-alt"></i>
+                        <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                         </div>
-                        <div class="col-lg">
-                                 <h4 id="services-subtitle"><i class="fab fa-adobe"></i>Web Design/Wireframes</h4>
-                                
+                        <div class="col-lg service-div">
+                                 <h4 id="services-subtitle">Web Design/Wireframes</h4>
+                        <i class="service-icons fab fa-adobe"></i>
+                                 <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                         </div>
-                        <div class="col-lg">
-                        <h4 id="services-subtitle"><i class="fas fa-camera"></i>Photography</h4>
-                       
+                        <div class="col-lg service-div">
+                        <h4 id="services-subtitle">Photography</h4>
+                        <i class="service-icons fas fa-camera"></i>
+                        <p id="text-current-p">PG Parenting is a full-stack 
+                            design for a company launching a parenting advisory website. To meet the 
+                            design specifications I created</p>
                         </div>
                     </div>
                 </div>
@@ -173,6 +195,12 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 </div>
+                <br></br>
+                <br></br>
+                <h2 id="services-title">Portfolio</h2>
+                <br></br>
+                <br></br>
+                <h2>Images, photosgraphs, screenshots of websites and websites and github</h2>
                 <br></br>
                 <br></br>
                 <div class="container">

@@ -202,6 +202,7 @@ font-weight: 200;
   font-family: 'Abril Fatface', cursive;
   color: rgb(59, 59, 58) !important;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .current-work-div{
@@ -281,8 +282,19 @@ margin-left: 4%;
 #services-subtitle{
   font-family: 'Abril Fatface', cursive;
   color: rgb(59, 59, 58) !important;
+  text-align: center;
 }
 
 .service-image{
   width: 100% !important;
+}
+
+.service-icons {
+  font-size: 50px;
+  text-align: center !important;
+  margin-left: 40%;
+}
+
+.service-div{
+  margin-bottom: 40px;
 }
