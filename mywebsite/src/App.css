@@ -1,13 +1,12 @@
-img {
+.landing-page-img, .landing-page-img-2  {
   position: absolute;
   object-fit: cover;
 	width: 100%;
   height: 700px;
   filter: brightness(70%);
-  
 }
 
-img:nth-of-type(2) {
+.landing-page-img-2 {
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
@@ -52,6 +51,9 @@ img:nth-of-type(2) {
   margin-top: -0px;
   position: relative;
   filter: brightness(67%);
+  object-fit: cover;
+	width: 100%;
+  height: 700px;
 }
 
 .nav-links{
@@ -108,4 +110,30 @@ img:nth-of-type(2) {
   border-color: rgb(59, 59, 58) ;
   border-radius: 2px;
   text-decoration: none;
+}
+
+
+
+.fancy {
+  padding : 1em;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #E4E4D9;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0) 95%, rgb(59, 59, 58) 95%),
+                    linear-gradient( 90deg, rgba(0,0,0,0) 95%, rgb(59, 59, 58) 95%),
+                    linear-gradient(180deg, rgba(0,0,0,0) 90%, rgb(97, 97, 95) 90%),
+                    linear-gradient( 90deg, rgba(0,0,0,0) 92%, rgb(97, 97, 95) 92%),
+                    linear-gradient(180deg, rgba(0,0,0,0) 85%, rgb(117, 117, 117) 85%),
+                    linear-gradient( 90deg, rgba(0,0,0,0) 89%, rgb(117, 117, 117) 89%),
+                    linear-gradient(180deg, rgba(0,0,0,0) 80%, rgb(153, 151, 151) 80%),
+                    linear-gradient( 90deg, rgba(0,0,0,0) 86%, rgb(153, 151, 151) 86%),
+/* 
+                    linear-gradient(180deg, rgba(0,0,0,0) 75%, rgb(97, 97, 95) 75%), */
+                    linear-gradient( 90deg, rgba(0,0,0,0) 83%, rgb(97, 97, 95) 83%),
+                    /* linear-gradient(180deg, rgba(0,0,0,0) 70%, rgb(59, 59, 58) 70%), */
+                    linear-gradient( 90deg, rgba(0,0,0,0) 80%, rgb(59, 59, 58) 80%);
+}
+
+li{
+  list-style: none;
 }
