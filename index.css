@@ -1,0 +1,46 @@
+#content-container {
+	padding-top: 20vw;
+}
+
+#name-half {
+	padding-top: 1.2vw;
+	text-align: right;
+	font-size: 3em;
+	display: table-cell; 
+	vertical-align: middle;
+	padding-right: 2em;
+}
+
+#menu-half {
+	padding-left: 2em;
+	text-align: left;
+	border-left: 1px solid #B2B1B1;;
+	font-size: 2em;
+}
+
+#menu-half li {
+	padding-bottom: 0.3em;
+}
+
+#menu-half a {
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #FF7F50;
+  	transition: 0.4s;
+}
+
+#menu-half a:hover {
+	color: #FF7F50;
+	transition-timing-function: ease;
+}
+
+.top-home-image{
+  object-fit: cover;
+  width: 100%;
+  height: 650px;
+}
+
+#navbar-web {
+background-color: transparent;
+}
+
