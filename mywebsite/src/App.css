@@ -157,6 +157,7 @@ font-weight: 200;
   padding-right: 90px !important;
 }
 
+
 .parenting-shadow{
   background-color: #aca9a9;
   width: 450px;
@@ -190,6 +191,37 @@ font-weight: 200;
 .parenting{
   margin-top: 110px;
 }
+
+.photography{
+  width: 20%;
+}
+
+.photography1{
+  width: 18.21%;
+}
+
+.photography2{
+  width: 24.7%;
+}
+
+.photography3{
+  width: 14.3%;
+}
+
+.photography4{
+  width: 22.6%;
+}
+
+
+.photos-p{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* .photo-div-inside{
+  margin-left: 10%;
+  margin-right: 1%;
+} */
 
 .about-div{
   /* background-image: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
@@ -231,7 +263,7 @@ font-weight: 200;
   margin-bottom: 50px;
 }
 
-.current-work-div{
+.current-work-div, .portfolio{
   background-color: rgb(238, 236, 236);
 }
 .services-div{
@@ -4093,9 +4125,6 @@ a:hover, a:active, a:focus {
   Work section              
 -----------------------------------------*/
 
-#work {
-  background: #ffffff;
-}
 
 #work .work-thumb {
   border-radius: 5px;

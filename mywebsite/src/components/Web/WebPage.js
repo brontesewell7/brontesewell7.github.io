@@ -9,6 +9,56 @@ import {Col, Button} from 'react-bootstrap'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
 import website5 from '../../images/website5.png'
+import work1 from '../../images/work-1.jpg'
+import work2 from '../../images/work-2.jpg'
+import work3 from '../../images/work-3.jpg'
+import work4 from '../../images/work-4.jpg'
+
+
+import photo1 from "../../images/photo1.PNG"
+import photo2 from "../../images/photo3.png"
+import photo3 from "../../images/photo4.PNG"
+import photo4 from "../../images/photo5.png"
+import photo5 from "../../images/photo6.JPG"
+import photo6 from "../../images/photo7.JPG"
+import photo7 from "../../images/photo35.jpeg"
+import photo8 from "../../images/photo37.JPG"
+import photo9 from "../../images/photo37.PNG"
+import photo10 from "../../images/photo39.JPG"
+import photo11 from "../../images/photo44.JPG"
+import photo12 from "../../images/photo46.JPG"
+import photo13 from "../../images/photo49.JPG"
+import photo14 from "../../images/photo55.png"
+import photo15 from "../../images/photo88.png"
+import photo16 from "../../images/photo97.JPG"
+import photo17 from "../../images/photo123.png"
+import photo18 from "../../images/photo212.JPG"
+import photo19 from "../../images/photo382.JPG"
+import photo20 from "../../images/photo964.JPG"
+import photo21 from "../../images/photo7373.JPG"
+
+
+
+
+import website1 from "../../images/website1.png"
+import website2 from "../../images/website2.png"
+import website3 from "../../images/website3.png"
+import website4 from "../../images/website6.png"
+import website6 from "../../images/website7.png"
+import website7 from "../../images/website8.png"
+import website8 from "../../images/website9.png"
+import website9 from "../../images/website10.png"
+import website10 from "../../images/website4.png"
+
+
+
+
+
+
+
+
+
+
 
 class WebPage extends Component {
  
@@ -200,12 +250,184 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 </div>
+                <div class="portfolio">
+                <br></br>
+                <br></br>
                 <br></br>
                 <br></br>
                 <h2 id="services-title">Portfolio</h2>
+                
+<section id="work" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+           
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <h2 id="services-title">Website Design and Development</h2>
+                         <p class="text-center">Websites available on Request</p>
+                    </div>
+               </div>
+
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website10}class="img-responsive" alt="Fine Arts"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                   
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website1} class="img-responsive" alt="Logo Design"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                   
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website2} class="img-responsive" alt="Photography"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                   
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website5} class="img-responsive" alt="Logo Design"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                 
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website3} class="img-responsive" alt="Cinematography"/>
+                         </a>
+                    </div>
+                    
+               </div>
+
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website4}class="img-responsive" alt="Fine Arts"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                 
+                 <div class="work-thumb">
+                      <a href="#" class="image-popup">
+                           <img src={website3} class="img-responsive" alt="Cinematography"/>
+                      </a>
+                 </div>
+                 
+            </div>
+
+
+            <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+             
+                 <div class="work-thumb">
+                      <a href='#' class="image-popup">
+                           <img src={website4}class="img-responsive" alt="Fine Arts"/>
+                      </a>
+                 </div>
+               
+            </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website6}class="img-responsive" alt="Fine Arts"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                   
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website9} class="img-responsive" alt="Logo Design"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                   
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website8} class="img-responsive" alt="Photography"/>
+                         </a>
+                    </div>
+                  
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                 
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website7} class="img-responsive" alt="Cinematography"/>
+                         </a>
+                    </div>
+                    
+               </div>
+
+
+
+          </div>
+     </div>
+</section>
+<h2 id="services-title">Photography</h2>
+<div class="photos-p">
+<img className="photography" src={photo1}/>
+<img className="photography" src={photo2}/>
+<img className="photography" src={photo6}/>
+<img className="photography" src={photo3}/>
+<img className="photography" src={photo12}/>
+<img className="photography" src={photo17}/>
+<img className="photography" src={photo4}/>
+<img className="photography" src={photo5}/>
+<img className="photography" src={photo7}/>
+<img className="photography" src={photo20}/>
+<div class="photo-div-inside">
+<img className="photography2" src={photo15}/>
+<img className="photography" src={photo18}/>
+<img className="photography1" src={photo13}/>
+<img className="photography3" src={photo21}/>
+<img className="photography4" src={photo9}/>
+</div>
+<img className="photography" src={photo10}/>
+<img className="photography" src={photo14}/>
+<img className="photography" src={photo19}/>
+<img className="photography" src={photo8}/>
+<img className="photography" src={photo16}/>
+</div>
+<br></br>
+                <br></br>
+</div>
                 <br></br>
                 <br></br>
-                <h2>Images, photosgraphs, screenshots of websites and websites and github</h2>
+                <div className="contact">
                 <br></br>
                 <br></br>
                 <div class="container">
@@ -236,7 +458,7 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
 
-
+                </div>
       
             </div>
         );
