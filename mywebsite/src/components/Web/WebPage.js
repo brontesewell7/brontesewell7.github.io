@@ -91,7 +91,7 @@ class WebPage extends Component {
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
                                 and more. Examples are below.</p>
                             
-                                <Button variant="secondary">Contact Me</Button> <Button variant="secondary">My Portfolio</Button>
+                                <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button> <Button variant="secondary" className="mt-3">My Portfolio</Button>
                         </Col>
                     </div>
                 </div>
@@ -145,8 +145,8 @@ class WebPage extends Component {
                 {/* <ScrollableAnchor id={'section2'}> </ScrollableAnchor> */}
                 <h2 id="services-title">Services</h2>
 
-<br></br>
-<div class="container">
+                <br></br>
+                <div class="container">
                     <div class="row">
                         <div class="col-lg service-div">
                         <h4 id="services-subtitle"> Wordpress Development</h4>

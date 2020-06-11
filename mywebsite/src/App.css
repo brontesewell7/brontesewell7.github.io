@@ -159,34 +159,36 @@ font-weight: 200;
 
 .parenting-shadow{
   background-color: #aca9a9;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 250px;
   border-radius: 3px;
   float: right;
   position: relative;
-  margin-top: -40px !important;
+  margin-top: -90px !important;
 }
 
 .parenting-2shadow{
   background-color: #c4c1c1;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 250px;
   position: relative;
   border-radius: 3px;
-  margin-left: 70px;
-  
+  margin-left: 10px;
+  padding-top: 70px !important;
+  padding-bottom: -90px !important;
 }
 
 #parenting-img{
   position: relative;
   width: 80%;
-  margin-top: -400px;
+  margin-top: -370px;
   margin-right: -500px !important;
-  margin-left: 90px;
+  margin-left: 60px;
+  border-radius: 3px !important;
 }
 
 .parenting{
-  margin-top: 70px;
+  margin-top: 110px;
 }
 
 .about-div{
