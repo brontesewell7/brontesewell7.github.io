@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 import WebNav from './WebNav'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import {Col, Button} from 'react-bootstrap'
-import photoparenting from '../../photoparenting.jpeg'
+// import photoparenting from '../../photoparenting.jpeg'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
+import website5 from '../../images/website5.png'
 
 class WebPage extends Component {
  
@@ -45,7 +46,7 @@ class WebPage extends Component {
                 <ScrollableAnchor id={'section1'}>
                 <div class="container">
                     <div class="row">
-                    <Col lg={5} className="fancy">
+                    <Col lg={4} className="fancy">
                         
 
                    
@@ -78,7 +79,7 @@ class WebPage extends Component {
                        
                     </Col>
 
-                    <Col lg={6} className="about">
+                    <Col lg={7} className="about">
                         <h2 id="about-title">About Me</h2>
                         <br/>
                         <p id="about-text">Firstly some background so that you understand where I am coming from.  I am an American 
@@ -125,7 +126,11 @@ class WebPage extends Component {
                             </p>
                         </Col>
                         <Col lg={6}>
-                            <img id="parenting-image" src={photoparenting}/>
+                            <div className="parenting">
+                            <div className="parenting-shadow"></div>
+                            <div className="parenting-2shadow"></div>
+                            <img id="parenting-img" src={website5}/>
+                            </div>
                         </Col>
                     </div>
                 </div>
@@ -229,6 +234,10 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
+
+
+      
             </div>
         );
     }
