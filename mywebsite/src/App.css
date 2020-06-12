@@ -263,6 +263,20 @@ font-weight: 200;
   margin-bottom: 50px;
 }
 
+#port-title{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+}
+
+#port-title-sub{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
 .current-work-div, .portfolio{
   background-color: rgb(238, 236, 236);
 }
@@ -341,6 +355,7 @@ margin-left: 4%;
   font-family: 'Abril Fatface', cursive;
   color: rgb(59, 59, 58) !important;
   text-align: center;
+  font-size: 25px;
 }
 
 .service-image{
@@ -354,7 +369,14 @@ margin-left: 4%;
 }
 
 .service-div{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-left: 20px !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 3px
 }
 
 
@@ -4358,4 +4380,5 @@ footer .dash-line {
 
 #about {
   background-color: #f4f4f4;
+  
 }

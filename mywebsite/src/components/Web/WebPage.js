@@ -49,8 +49,8 @@ import website7 from "../../images/website8.png"
 import website8 from "../../images/website9.png"
 import website9 from "../../images/website10.png"
 import website10 from "../../images/website4.png"
-
-
+import website11 from "../../images/website11.png"
+import website12 from "../../images/website12.png"
 
 
 
@@ -71,7 +71,7 @@ class WebPage extends Component {
             <div >
                 <WebNav/>
                 <img id="web-top-image" src="https://images.unsplash.com/photo-1527691894785-52e19fab8bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1836&q=80"/>
-                <div id="quote-over-images"><h3 className="quote-home-image">Full Stack Web Developer and Designer</h3>
+                <div id="quote-over-images"><h2 className="quote-home-image">Full Stack Web Developer and Designer</h2>
                 <a href='#section1' id="button-image-home">Learn More</a>
                 <br></br>
                 <br></br>
@@ -85,13 +85,15 @@ class WebPage extends Component {
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
                 <span className="social-icon-web"/>
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
-                </div>     
-<div className="about-div">
-<div className="about-blur">
-    
-    <br></br>
-<br></br>
-<br></br>
+                </div>   
+                  
+            <div className="about-div">
+            <div className="about-blur">
+                
+                <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
                 
                 <ScrollableAnchor id={'section1'}>
                 <div class="container">
@@ -146,13 +148,17 @@ class WebPage extends Component {
                     </div>
                 </div>
                 </ScrollableAnchor>
-<br></br>
-<br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br><br></br>
+                                    <br></br>
                 </div>
                 </div>
                 <div className="current-work-div">
-<br></br>
-<br></br>
+                <br></br>
+                <br></br>
+                <br></br><br></br>
+                                    <br></br>
 
                 <div class="container current-work">
                     <div class="row">
@@ -187,10 +193,14 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
+                                    <br></br>
                 </div>
                 <div className="about-div">
-                <div className="about-blur">
+                
                 <br></br>
+                <br></br><br></br>
+                                    <br></br>
                 <br></br>
                 {/* <ScrollableAnchor id={'section2'}> </ScrollableAnchor> */}
                 <h2 id="services-title">Services</h2>
@@ -246,16 +256,17 @@ class WebPage extends Component {
                         </div>
                     </div>
                 </div>
-                </div>
                 <br></br>
                 <br></br>
+                <br></br><br></br>
                 </div>
+                
                 <div class="portfolio">
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
-                <h2 id="services-title">Portfolio</h2>
+                <h2 id="port-title">Portfolio</h2>
                 
 <section id="work" class="parallax-section">
      <div class="container">
@@ -264,17 +275,35 @@ class WebPage extends Component {
                <div class="col-md-12 col-sm-12">
            
                     <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                    <h2 id="services-title">Website Design and Development</h2>
+                    <h2 id="port-title-sub">Website Design and Development</h2>
                          <p class="text-center">Websites available on Request</p>
                     </div>
                </div>
 
 
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                   
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website2} class="img-responsive" alt="Photography"/>
+                         </a>
+                    </div>
+                  
+               </div>
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                 
                     <div class="work-thumb">
                          <a href='#' class="image-popup">
                               <img src={website10}class="img-responsive" alt="Fine Arts"/>
+                         </a>
+                    </div>
+                  
+               </div>
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                   
+                    <div class="work-thumb">
+                         <a href='#' class="image-popup">
+                              <img src={website5} class="img-responsive" alt="Logo Design"/>
                          </a>
                     </div>
                   
@@ -290,35 +319,7 @@ class WebPage extends Component {
                   
                </div>
 
-               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
-                   
-                    <div class="work-thumb">
-                         <a href="#" class="image-popup">
-                              <img src={website2} class="img-responsive" alt="Photography"/>
-                         </a>
-                    </div>
-                  
-               </div>
 
-               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
-                   
-                    <div class="work-thumb">
-                         <a href='#' class="image-popup">
-                              <img src={website5} class="img-responsive" alt="Logo Design"/>
-                         </a>
-                    </div>
-                  
-               </div>
-
-               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
-                 
-                    <div class="work-thumb">
-                         <a href="#" class="image-popup">
-                              <img src={website3} class="img-responsive" alt="Cinematography"/>
-                         </a>
-                    </div>
-                    
-               </div>
 
 
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
@@ -331,26 +332,37 @@ class WebPage extends Component {
                   
                </div>
 
-               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
-                 
-                 <div class="work-thumb">
-                      <a href="#" class="image-popup">
-                           <img src={website3} class="img-responsive" alt="Cinematography"/>
-                      </a>
-                 </div>
-                 
-            </div>
-
-
             <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
              
                  <div class="work-thumb">
                       <a href='#' class="image-popup">
-                           <img src={website4}class="img-responsive" alt="Fine Arts"/>
+                           <img src={website12}class="img-responsive" alt="Fine Arts"/>
                       </a>
                  </div>
                
             </div>
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                 
+                 <div class="work-thumb">
+                      <a href="#" class="image-popup">
+                           <img src={website11} class="img-responsive" alt="Cinematography"/>
+                      </a>
+                 </div>
+                 
+            </div>
+
+
+
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                 
+                    <div class="work-thumb">
+                         <a href="#" class="image-popup">
+                              <img src={website3} class="img-responsive" alt="Cinematography"/>
+                         </a>
+                    </div>
+                    
+               </div>
 
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                 
@@ -397,34 +409,35 @@ class WebPage extends Component {
           </div>
      </div>
 </section>
-<h2 id="services-title">Photography</h2>
-<div class="photos-p">
-<img className="photography" src={photo1}/>
-<img className="photography" src={photo2}/>
-<img className="photography" src={photo6}/>
-<img className="photography" src={photo3}/>
-<img className="photography" src={photo12}/>
-<img className="photography" src={photo17}/>
-<img className="photography" src={photo4}/>
-<img className="photography" src={photo5}/>
-<img className="photography" src={photo7}/>
-<img className="photography" src={photo20}/>
-<div class="photo-div-inside">
-<img className="photography2" src={photo15}/>
-<img className="photography" src={photo18}/>
-<img className="photography1" src={photo13}/>
-<img className="photography3" src={photo21}/>
-<img className="photography4" src={photo9}/>
-</div>
-<img className="photography" src={photo10}/>
-<img className="photography" src={photo14}/>
-<img className="photography" src={photo19}/>
-<img className="photography" src={photo8}/>
-<img className="photography" src={photo16}/>
-</div>
-<br></br>
-                <br></br>
-</div>
+                    <h2 id="port-title-sub">Photography</h2>
+                        <div class="photos-p">
+                            <img className="photography" src={photo1}/>
+                            <img className="photography" src={photo2}/>
+                            <img className="photography" src={photo6}/>
+                            <img className="photography" src={photo3}/>
+                            <img className="photography" src={photo12}/>
+                            <img className="photography" src={photo17}/>
+                            <img className="photography" src={photo4}/>
+                            <img className="photography" src={photo5}/>
+                            <img className="photography" src={photo7}/>
+                            <img className="photography" src={photo20}/>
+                            <div class="photo-div-inside">
+                                <img className="photography2" src={photo15}/>
+                                <img className="photography" src={photo18}/>
+                                <img className="photography1" src={photo13}/>
+                                <img className="photography3" src={photo21}/>
+                                <img className="photography4" src={photo9}/>
+                            </div>
+                            <img className="photography" src={photo10}/>
+                            <img className="photography" src={photo14}/>
+                            <img className="photography" src={photo19}/>
+                            <img className="photography" src={photo8}/>
+                            <img className="photography" src={photo16}/>
+                        </div>
+                    <br></br>
+                                    <br></br><br></br>
+                                    <br></br>
+                    </div>
                 <br></br>
                 <br></br>
                 <div className="contact">
