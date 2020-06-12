@@ -193,6 +193,18 @@ font-weight: 200;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #port-title-subs, .photos-p {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .photos-p-small, #port-title-sub-small {
+    display: none;
+  }
+}
+
 
 .parenting-shadow{
   background-color: #aca9a9;
@@ -253,6 +265,10 @@ font-weight: 200;
   margin-right: 10%;
 }
 
+.photos-p-small{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 
 .about-div{
@@ -330,6 +346,23 @@ font-weight: 200;
   margin-bottom: 20px;
 }
 
+#port-title-subs{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+#port-title-sub-small{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 90px
+}
 .current-work-div, .portfolio{
   background-color: rgb(238, 236, 236);
 }

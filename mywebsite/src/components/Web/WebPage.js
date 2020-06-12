@@ -222,8 +222,7 @@ class WebPage extends Component {
 
                     </div>
                 </div>
-                        <br></br>
-                        <br></br>
+                        
                         <br></br><br></br>
                                     <br></br>
                 </div>
@@ -364,6 +363,32 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <h2 id="port-title">Portfolio</h2>
+
+                <h2 id="port-title-sub-small">Photography</h2>
+                        <div class="photos-p-small">
+                            <img className="photography" src={photo1}/>
+                            <img className="photography" src={photo2}/>
+                            <img className="photography" src={photo6}/>
+                            <img className="photography" src={photo3}/>
+                            <img className="photography" src={photo12}/>
+                            <img className="photography" src={photo17}/>
+                            <img className="photography" src={photo4}/>
+                            <img className="photography" src={photo5}/>
+                            <img className="photography" src={photo7}/>
+                            <img className="photography" src={photo20}/>
+                            <div class="photo-div-inside">
+                                <img className="photography2" src={photo15}/>
+                                <img className="photography" src={photo18}/>
+                                <img className="photography1" src={photo13}/>
+                                <img className="photography3" src={photo21}/>
+                                <img className="photography4" src={photo9}/>
+                            </div>
+                            <img className="photography" src={photo10}/>
+                            <img className="photography" src={photo14}/>
+                            <img className="photography" src={photo19}/>
+                            <img className="photography" src={photo8}/>
+                            <img className="photography" src={photo16}/>
+                        </div>
                 
 <section id="work" class="parallax-section">
      <div class="container">
@@ -506,7 +531,8 @@ class WebPage extends Component {
           </div>
      </div>
 </section>
-                    <h2 id="port-title-sub">Photography</h2>
+
+                    <h2 id="port-title-subs">Photography</h2>
                         <div class="photos-p">
                             <img className="photography" src={photo1}/>
                             <img className="photography" src={photo2}/>
