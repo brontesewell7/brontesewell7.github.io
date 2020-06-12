@@ -247,13 +247,37 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 355px) {
+@media only screen and (max-width: 362px) {
   .navbar-brand {
     font-size: 35px !important;
   }
 }
 
+@media only screen and (max-width: 498px) {
+  .text-eq {
+    margin-left: 10%;
+    margin-right: 10% !important;
+    margin-top: 30% !important;
+  }
+}
 
+@media only screen and (max-width: 398px) {
+  #comming {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 398px) {
+  .button-back {
+    margin-left: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  #equestrian-bg {
+    background-position: 30% 50% !important;
+  }
+}
 
 .parenting-shadow{
   background-color: #aca9a9;
@@ -553,6 +577,7 @@ margin-left: 4%;
   height: 550px;
   overflow: hidden;
   width: 100%;
+  margin-top: -48px !important;
 
 }
 
