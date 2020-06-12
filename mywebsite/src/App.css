@@ -334,7 +334,7 @@ margin-left: 4%;
 
 
 #send-gmail-contact{
-  width: 20%;
+  width: 250px;
   height: 80%;
   margin-right: 60px;
   margin-top: 70px;
@@ -410,6 +410,13 @@ float: left;
   color: rgb(59, 59, 58) !important;
   text-align: center;
   font-size: 25px;
+}
+
+#services-subtitles{
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(59, 59, 58) !important;
+  text-align: center;
+  font-size: 24.2px;
 }
 
 .service-image{

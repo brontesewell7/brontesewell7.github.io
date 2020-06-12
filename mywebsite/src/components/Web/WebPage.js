@@ -8,6 +8,7 @@ import {Col, Button} from 'react-bootstrap'
 // import photoparenting from '../../photoparenting.jpeg'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 import website5 from '../../images/website5.png'
 import work1 from '../../images/work-1.jpg'
 import work2 from '../../images/work-2.jpg'
@@ -70,9 +71,11 @@ class WebPage extends Component {
         return (
             <div >
                 <WebNav/>
+                <ScrollableAnchor id={'section1'}>
                 <img id="web-top-image" src="https://images.unsplash.com/photo-1527691894785-52e19fab8bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1836&q=80"/>
+                </ScrollableAnchor>
                 <div id="quote-over-images"><h2 className="quote-home-image">Full Stack Web Developer and Designer</h2>
-                <a href='#section1' id="button-image-home">Learn More</a>
+                <a href='#section2' id="button-image-home">Learn More</a>
                 <br></br>
                 <br></br>
                 <span className="social-icon-web-1"/>
@@ -87,6 +90,7 @@ class WebPage extends Component {
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.instagram.com/horse_girl_nz/" size="40" />
                 </div>   
                   
+                <ScrollableAnchor id={'section2'}>
             <div className="about-div">
             <div className="about-blur">
                 
@@ -95,10 +99,9 @@ class WebPage extends Component {
             <br></br>
             <br></br>
                 
-                <ScrollableAnchor id={'section1'}>
                 <div class="container">
                     <div class="row">
-                    <Col lg={4} className="fancy">
+                    <Col md={4} className="fancy">
                         
 
                    
@@ -124,14 +127,14 @@ class WebPage extends Component {
                             <li>Active Record</li>
                             <li>Bootstrap/Semantic UI</li>
                             <li>Adobe Photoshop</li>
-                            <li>Algorithms + Data Structures</li>
+                            <li>mdorithms + Data Structures</li>
                             <li>API's</li>
                             <li>And More...</li>
                         </ul>
                        
                     </Col>
 
-                    <Col lg={7} className="about">
+                    <Col md={7} className="about">
                         <h2 id="about-title">About Me</h2>
                         <br/>
                         <p id="about-text">Firstly some background so that you understand where I am coming from.  I am an American 
@@ -147,20 +150,21 @@ class WebPage extends Component {
                         </Col>
                     </div>
                 </div>
-                </ScrollableAnchor>
                         <br></br>
                         <br></br>
                         <br></br><br></br>
                                     <br></br>
                 </div>
                 </div>
+                </ScrollableAnchor>
                 <div className="current-work-div">
                 <br></br>
                 <br></br>
                 <br></br><br></br>
-                                    <br></br>
+                                   
 
                 <div class="container current-work">
+                    
                     <div class="row">
 
                     <Col lg={6}>
@@ -194,7 +198,9 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
+                <ScrollableAnchor id={'section3'}>
                                     <br></br>
+                        </ScrollableAnchor>
                 </div>
                 <div className="about-div">
                 
@@ -202,57 +208,56 @@ class WebPage extends Component {
                 <br></br><br></br>
                                     <br></br>
                 <br></br>
-                {/* <ScrollableAnchor id={'section2'}> </ScrollableAnchor> */}
+                
+               
                 <h2 id="services-title">Services</h2>
 
                 <br></br>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg service-div">
+                        <div class="col-md service-div">
                         <h4 id="services-subtitle"> Wordpress Development</h4>
                         <i class="service-icons fab fa-wordpress"></i> 
-                        <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                        <p id="text-current-p">From commercial websites to personal portfolios, I
+                        can develop responsive & fully-functional Wordpress websites to serve your business or personal needs.</p>
                         </div>
-                        <div class="col-lg service-div">
+                        <div class="col-md service-div">
                         <h4 id="services-subtitle">  Full Stack Web Application</h4>
                         <i class="service-icons fas fa-code"></i>
-                        <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                        <p id="text-current-p">The best way to save time, avoid errors, & get the most from your 
+                        investment is to hire a proven full-stack web developer that can handle the entire process 
+                        from concept & ideation to finished product.</p>
                         </div>
-                        <div class="col-lg service-div">
+                        <div class="col-md service-div">
                                  <h4 id="services-subtitle">Web Maintenance</h4>
                                  <i class="service-icons fas fa-wrench"></i> 
-                                 <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                                 <p id="text-current-p">Helping businesses across the globe improve the performance
+                                  and security of their websites. Whether you’re looking for a monthly, hourly, or 
+                                  after-hours website maintenance I am here for you.</p>
                                  </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg service-div">
+                        <div class="col-md service-div">
                         <h4 id="services-subtitle"> Mobile Application</h4>
                         <i class="service-icons fas fa-mobile-alt"></i>
-                        <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                        <p id="text-current-p">You get to hire a mobile app developer who understands multiple aspects 
+                        of mobile application development including user-experience, design, performance, and security.</p>
                         </div>
-                        <div class="col-lg service-div">
-                                 <h4 id="services-subtitle">Web Design/Wireframes</h4>
+                        <div class="col-md service-div">
+                                 <h4 id="services-subtitle">UX/UI</h4>
                         <i class="service-icons fab fa-adobe"></i>
-                                 <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                                 <p id="text-current-p">I brainstorm, strategize and materialize your idea to deliver 
+                                 your business outcome by helping you build an engaging product easily and quickly! 
+                                 Constantly keeping up with new trends and modern tools.</p>
                         </div>
-                        <div class="col-lg service-div">
-                        <h4 id="services-subtitle">Photography</h4>
+                        <div class="col-md service-div">
+                        <h4 id="services-subtitles">Photography & Videography</h4>
                         <i class="service-icons fas fa-camera"></i>
-                        <p id="text-current-p">PG Parenting is a full-stack 
-                            design for a company launching a parenting advisory website. To meet the 
-                            design specifications I created</p>
+                        <p id="text-current-p">Whether you want a romantic couple photoshoot, a Instagram photoshoot, a Family photoshoot, Photo Edits,
+                         Videos / Films, Photoshop edits or more then I can provide professional Services
+                        (Awarded Photographer of the year for my Area).</p>
                         </div>
                     </div>
                 </div>
@@ -260,7 +265,7 @@ class WebPage extends Component {
                 <br></br>
                 <br></br><br></br>
                 </div>
-                
+                <ScrollableAnchor id={'section4'}>
                 <div class="portfolio">
                 <br></br>
                 <br></br>
@@ -438,22 +443,16 @@ class WebPage extends Component {
                                     <br></br><br></br>
                                     <br></br>
                     </div>
+                    </ScrollableAnchor>
                 <br></br>
                 <br></br>
+                <ScrollableAnchor id={'section5'}>
                 <div >
         
 
                 <div>
                     <div class="row">
 
-                
-                        {/* <img src={me} class="me-img" /> */}
-                        {/* </Col>
-                        <Col lg={7}>
-                            
-                            <div class="container">
-                                <div class="row">
-                                    <Col lg={7}> */}
                                     <div class="contact-divs">
                                         
                                             <div id="send-gmail-contact"> 
@@ -470,22 +469,20 @@ class WebPage extends Component {
                                       
                                     </div>
                                    
-                                {/* </div>
-                            </div>
-                         </Col> */}
+                               
                     </div>
                 </div>
 
 
-
                
                 <br></br>
-                <p style={{textAlign: 'center'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
+                <p style={{textAlign: 'center', marginLeft: '4%', marginRight: '4%'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
                          <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
                 <br></br>
                 <br></br>
                
                 </div>
+                </ScrollableAnchor>
       
             </div>
         );

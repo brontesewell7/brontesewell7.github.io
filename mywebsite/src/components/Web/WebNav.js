@@ -30,16 +30,16 @@ class WebNav extends Component {
         return (
             <nav id="wecome-navbar">
 
-                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "rgb(250, 242, 242)" : "transparent"}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-sm">
-                    <Navbar.Brand className="navbar-brand" href="/">Bronte Sewell</Navbar.Brand>
+                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "#fafafa" : "transparent"}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-sm">
+                    <Navbar.Brand className="navbar-brand" href='#section1'>Bronte Sewell</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                        <Nav.Link  className="nav-links" href="/">HOME</Nav.Link>
-                        <Nav.Link className="nav-links" href='#section1'>ABOUT</Nav.Link>
-                        <Nav.Link  className="nav-links" href='#section2'>SERVICES</Nav.Link>
-                        <Nav.Link  className="nav-links" href="/signup-user">PORTFOLIO</Nav.Link>
-                        <Nav.Link  className="nav-links" href="/contact-us">CONTACT ME</Nav.Link>
+                        <Nav.Link  className="nav-links" href='#section1'>HOME</Nav.Link>
+                        <Nav.Link className="nav-links" href='#section2'>ABOUT</Nav.Link>
+                        <Nav.Link  className="nav-links" href='#section3'>SERVICES</Nav.Link>
+                        <Nav.Link  className="nav-links" href='#section4'>PORTFOLIO</Nav.Link>
+                        <Nav.Link  className="nav-links" href='#section5'>CONTACT ME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     </Navbar>
