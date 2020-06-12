@@ -173,8 +173,8 @@ class WebPage extends Component {
                     <Col md={7} className="about-small">
                         <h2 id="about-title">About Me</h2>
                         <br/>
-                        <p id="about-text">Firstly some background so that you understand where I am coming from.  I am an American 
-                            citizen and have been privileged to have also lived abroad for many years.  I graduated 
+                        <p id="about-text">My Name is Bronte Sewell.  I am currently based in San Francisco but
+                               have been privileged to have also lived abroad for many years.  I graduated 
                             from the top all-girls school in New Zealand and spent 2 years as a professional Equestrian
                             rider, competing internationally throughout Europe.  I was on track for the Olympics 
                             until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
@@ -182,7 +182,7 @@ class WebPage extends Component {
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
                                 and more. Examples are below.</p>
                             
-                                <a href='#section3'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
+                                <a href='#section5'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
                         </Col>
                         
                     <Col md={4} className="fancy-small">
@@ -563,13 +563,14 @@ class WebPage extends Component {
                     </div>
                     </ScrollableAnchor>
                 <br></br>
-                <br></br>
                 <ScrollableAnchor id={'section5'}>
+                <br></br>
+                </ScrollableAnchor>
                 <div >
         
 
-                <div>
-                    <div class="row">
+              
+                    
 
                                     <div class="contact-divs">
                                         
@@ -586,21 +587,50 @@ class WebPage extends Component {
                                         </div>
                                       
                                     </div>
-                                   
-                               
-                    </div>
-                </div>
+
+
+                                    <div class="container contact-small">
+                                        <div class="row">
+                                                  <div class="col-md">          
+                                                            <h3 id="contact-title-small">Contact Me</h3>
+                                                            <br/>
+                                                            <h4 className="contact-info-small">Email: brontsewell7@gmail.com</h4>
+                                                            <h4 className="contact-info-small">Location: San Francisco, California</h4>
+                                                            <h4 className="contact-info-small">Phone Number: +1 (818)877-8154</h4>
+                                                  </div>  
+                                                   <div class="col-md">
+                                                   <div class="conts">
+                                                     
+                                                       <div id="send-gmail-contact-small"> 
+                                                       <h5 className="contact-option">OR Email me on your Gmail:</h5>
+                                                       < ReactContactForm to="brontsewell7@gmail.com" />
+                                                       </div>   
+                                             
+                                                  </div>   
+                                                  </div>  
+                                             </div>  
+                                             <br></br>
+                                             <br></br>
+                                        </div>                   
+                                    
+                                  
+                                                        
+                
 
 
                
                 <br></br>
                 <p style={{textAlign: 'center', marginLeft: '4%', marginRight: '4%'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
-                         <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
+                <br></br>
+                         <div class="cont">
+                         <div class="vertical-center">
+                         <button type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
+                         </div>
+                         </div>
                 <br></br>
                 <br></br>
                
                 </div>
-                </ScrollableAnchor>
       
             </div>
         );

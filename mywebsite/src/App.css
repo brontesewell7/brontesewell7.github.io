@@ -69,6 +69,21 @@
   height: 700px;
 }
 
+.cont {
+  position: relative;
+ 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
 #quote-over-images{
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -77,6 +92,10 @@
   margin-top: -10%;
 }
 
+.conts{
+  margin-left: 30%;
+  margin-right: 30%;
+}
 
 .quote-home-image{
   color:#ccc;
@@ -169,15 +188,26 @@ font-weight: 200;
   background-color: #fff;
   border-radius: 3px;
   padding: 40px !important;
-  padding-left: 90px !important;
-  padding-right: 90px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .conts {
+    margin-left: 20%!important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .contact-option {
+    margin-left: -40px!important;
+  }
 }
 
 
-@media only screen and (max-width: 500px) {
-  .about, .about-small {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+@media only screen and (max-width: 991px) {
+  .about {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
   }
 }
 
@@ -204,6 +234,25 @@ font-weight: 200;
     display: none;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-divs, .contact-text{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-small{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .navbar-brand {
+    font-size: 35px !important;
+  }
+}
+
 
 
 .parenting-shadow{
@@ -429,6 +478,46 @@ margin-left: 4%;
   float: right
 }
 
+
+
+
+#send-gmail-contact-small a{
+  background-color: #6C757D;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 13%;
+}
+
+#send-gmail-contact-small input{
+border-style: solid;
+border-color: #5a5a5c;
+border-radius: 3px;
+border-width: thin;
+margin-bottom: 2px;
+margin-left: 4%;
+}
+
+#send-gmail-contact-small textarea{
+  border-style: solid;
+  border-color: #5a5a5c;
+  border-radius: 3px;
+  margin-left: 3%;
+}
+
+
+
+#send-gmail-contact-small{
+  width: 250px;
+  height: 80%;
+ 
+}
+
+
 #equestrian-bg{
   background: url('./images/sweetie.jpg');
   width: 100%;
@@ -457,12 +546,14 @@ margin-left: 4%;
 }
 
 .contact-divs{
-  background: url('./images/me.jpg') 100%;
-  width: 100%;
+  background-image: url('./images/me.jpg');
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   height: 550px;
-  margin-top: -45px;
+  overflow: hidden;
+  width: 100%;
+
 }
 
 #contact-title{
@@ -492,6 +583,33 @@ float: left;
   padding-top: 40px;
   margin-left: -30px;
 }
+
+
+#contact-title-small{
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  text-align: center;
+ 
+}
+
+.contact-info-small{
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.contact-option{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  padding-bottom: 10px;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: -30px;
+}
+
 
 #services-subtitle{
   font-family: 'Abril Fatface', cursive;
