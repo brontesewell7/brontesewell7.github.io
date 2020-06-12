@@ -447,29 +447,32 @@ class WebPage extends Component {
                 <div>
                     <div class="row">
 
-                    <Col lg={5}>
-                        <img src={me} class="me-img" />
-                        </Col>
+                
+                        {/* <img src={me} class="me-img" /> */}
+                        {/* </Col>
                         <Col lg={7}>
                             
                             <div class="container">
                                 <div class="row">
-                                    <Col lg={7}>
-                                    <h3 id="contact-title">Contact Me</h3>
-                                    <br/>
-                                    <h4 className="contact-info">Email: brontsewell7@gmail.com</h4>
-                                    <h4 className="contact-info">Location: San Francisco, California</h4>
-                                    <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
-                                    </Col>
-                                    <Col lg={4}>
+                                    <Col lg={7}> */}
+                                    <div class="contact-divs">
+                                        
                                             <div id="send-gmail-contact"> 
                                                 <h5 className="contact-options">Email me on your Gmail:</h5>
                                             < ReactContactForm to="jumpinggirlnz@icloud.com" />
                                             </div>                    
-                                        </Col>
-                                </div>
+                                        <div class="contact-text">   
+                                            <h3 id="contact-title">Contact Me</h3>
+                                            <br/>
+                                            <h4 className="contact-info">Email: brontsewell7@gmail.com</h4>
+                                            <h4 className="contact-info">Location: San Francisco, California</h4>
+                                            <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
+                                        </div>
+                                    </div>
+                                   
+                                {/* </div>
                             </div>
-                        </Col>
+                        </Col> */}
                     </div>
                 </div>
 
