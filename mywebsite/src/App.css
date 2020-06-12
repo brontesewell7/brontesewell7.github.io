@@ -47,14 +47,7 @@
   cursor: pointer;
 }
 
-#web-top-image{
-  margin-top: -0px;
-  position: relative;
-  filter: brightness(67%);
-  object-fit: cover;
-	width: 100%;
-  height: 700px;
-}
+
 
 .nav-links{
   font-size: 20px;
@@ -67,7 +60,15 @@
 }
 
 
-
+#web-top-image{
+  background: url('https://images.unsplash.com/photo-1527691894785-52e19fab8bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1836&q=80');
+  filter: brightness(67%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+	width: 100%;
+  height: 700px;
+}
 
 
 .quote-home-image{
@@ -75,18 +76,7 @@
   font-size: 40px;
   font-family: 'Abril Fatface', cursive;
   margin-bottom: 30px;
-  text-align: justify;
-}
-
-#quote-over-images{
-  position: absolute;
-  top: 55%;
-  left: 650px;
-  width: 60%;
-  height: 150px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 25px;
+  margin-top: 150px;
 }
 
 #button-image-home{
@@ -301,6 +291,14 @@ font-weight: 200;
   backdrop-filter: blur(2px); 
 }
 
+.container-web-title {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
 
 
 
@@ -331,6 +329,7 @@ margin-left: 4%;
   border-radius: 3px;
   margin-left: 3%;
 }
+
 
 
 #send-gmail-contact{

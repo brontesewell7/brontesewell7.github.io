@@ -72,8 +72,8 @@ class WebPage extends Component {
             <div >
                 <WebNav/>
                 <ScrollableAnchor id={'section1'}>
-                <img id="web-top-image" src="https://images.unsplash.com/photo-1527691894785-52e19fab8bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1836&q=80"/>
-                </ScrollableAnchor>
+                <div id="web-top-image">
+                <div className="container-web-title">
                 <div id="quote-over-images"><h2 className="quote-home-image">Full Stack Web Developer and Designer</h2>
                 <a href='#section2' id="button-image-home">Learn More</a>
                 <br></br>
@@ -88,7 +88,11 @@ class WebPage extends Component {
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.linkedin.com/in/bronte-sewell-1bb78a199/" size="40" />
                 <span className="social-icon-web"/>
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.instagram.com/horse_girl_nz/" size="40" />
-                </div>   
+                </div>  
+
+                </div> 
+                </div>
+                </ScrollableAnchor>
                   
                 <ScrollableAnchor id={'section2'}>
             <div className="about-div">
