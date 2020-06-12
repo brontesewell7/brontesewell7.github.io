@@ -30,7 +30,7 @@ class WebNav extends Component {
         return (
             <nav id="wecome-navbar">
 
-                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "#fafafa" : "transparent"}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-sm">
+                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "#fafafa" : "transparent", paddingTop: '20px', paddingRight: '30px'}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-sm">
                     <Navbar.Brand className="navbar-brand" href='#section1'>Bronte Sewell</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

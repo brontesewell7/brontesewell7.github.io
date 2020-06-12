@@ -39,7 +39,7 @@ import photo20 from "../../images/photo964.JPG"
 import photo21 from "../../images/photo7373.JPG"
 
 
-
+import currentimg from "../../images/currentimg.png"
 
 import website1 from "../../images/website1.png"
 import website2 from "../../images/website2.png"
@@ -94,7 +94,7 @@ class WebPage extends Component {
                 </div>
                 </ScrollableAnchor>
                   
-                <ScrollableAnchor id={'section2'}>
+                {/* <ScrollableAnchor id={'section2'}> */}
             <div className="about-div">
             <div className="about-blur">
                 
@@ -150,7 +150,7 @@ class WebPage extends Component {
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
                                 and more. Examples are below.</p>
                             
-                                <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button> <Button variant="secondary" className="mt-3">My Portfolio</Button>
+                                <a href='#section3'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
                         </Col>
                     </div>
                 </div>
@@ -160,7 +160,95 @@ class WebPage extends Component {
                                     <br></br>
                 </div>
                 </div>
-                </ScrollableAnchor>
+
+
+
+                <div className="about-div-small">
+            <div className="about-blur-small">
+                
+               
+                
+                <div class="container small">
+                    <div class="row">
+                    <Col md={7} className="about-small">
+                        <h2 id="about-title">About Me</h2>
+                        <br/>
+                        <p id="about-text">Firstly some background so that you understand where I am coming from.  I am an American 
+                            citizen and have been privileged to have also lived abroad for many years.  I graduated 
+                            from the top all-girls school in New Zealand and spent 2 years as a professional Equestrian
+                            rider, competing internationally throughout Europe.  I was on track for the Olympics 
+                            until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
+                            mine, programming and completed Flatiron’s Full-Stack Engineering Bootcamp in San Francisco.
+                            <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
+                                and more. Examples are below.</p>
+                            
+                                <a href='#section3'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
+                        </Col>
+                        
+                    <Col md={4} className="fancy-small">
+                        
+                    <br></br>
+            <br></br>
+            <br></br>
+                   
+                        <h4 className="skills-title">Languages</h4>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Ruby</li>
+                            <li>Pyhton</li>
+                            <li>PHP</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                        <h4 className="skills-title">Frameworks + Other</h4>
+                        <ul>
+                            <li>Wordpress</li>
+                            <li>React</li>
+                            <li>Ruby on Rails</li>
+                            <li>React Native</li>
+                            <li>Redux</li>
+                            <li>NodeJS/Express</li>
+                            <li>GraphQL/Apollo</li>
+                            <li>Typescript</li>
+                            <li>SQL + MongoDB</li>
+                            <li>Active Record</li>
+                            <li>Bootstrap/Semantic UI</li>
+                            <li>Adobe Photoshop</li>
+                            <li>mdorithms + Data Structures</li>
+                            <li>API's</li>
+                            <li>And More...</li>
+                        </ul>
+                       
+                    </Col>
+
+                    </div>
+                </div>
+                        <br></br>
+                        <br></br>
+                        <br></br><br></br>
+                                    <br></br>
+                </div>
+                </div>
+                {/* </ScrollableAnchor> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="current-work-div">
                 <br></br>
                 <br></br>
@@ -191,9 +279,10 @@ class WebPage extends Component {
                         </Col>
                         <Col lg={6}>
                             <div className="parenting">
-                            <div className="parenting-shadow"></div>
+                            {/* <div className="parenting-shadow"></div>
                             <div className="parenting-2shadow"></div>
-                            <img id="parenting-img" src={website5}/>
+                            <img id="parenting-img" src={website5}/> */}
+                            <img id="img-current" src={currentimg} />
                             </div>
                         </Col>
                     </div>
@@ -206,7 +295,7 @@ class WebPage extends Component {
                                     <br></br>
                         </ScrollableAnchor>
                 </div>
-                <div className="about-div">
+                <div className="service-divs">
                 
                 <br></br>
                 <br></br><br></br>
