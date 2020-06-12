@@ -93,8 +93,9 @@ class WebPage extends Component {
                 </div> 
                 </div>
                 </ScrollableAnchor>
-                  
-                {/* <ScrollableAnchor id={'section2'}> */}
+                <ScrollableAnchor id={'section2'}>
+                  <div></div>
+                </ScrollableAnchor>
             <div className="about-div">
             <div className="about-blur">
                 
@@ -160,8 +161,7 @@ class WebPage extends Component {
                                     <br></br>
                 </div>
                 </div>
-
-
+               
 
                 <div className="about-div-small">
             <div className="about-blur-small">
@@ -228,7 +228,6 @@ class WebPage extends Component {
                                     <br></br>
                 </div>
                 </div>
-                {/* </ScrollableAnchor> */}
 
 
 
