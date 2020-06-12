@@ -9,6 +9,13 @@ import {Col, Button} from 'react-bootstrap'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
+
+import ScrollableAnchor from 'react-scrollable-anchor'
+import FadeIn from 'react-fade-in';
+import Fade from 'react-reveal/Fade';
+import Reveal from 'react-reveal/Reveal';
+
+
 import website5 from '../../images/website5.png'
 import work1 from '../../images/work-1.jpg'
 import work2 from '../../images/work-2.jpg'

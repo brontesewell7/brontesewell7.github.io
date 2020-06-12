@@ -7,7 +7,7 @@ const EquestrianNav = () =>  {
             <nav id="wecome-navbar">
 
                     
-                    <Navbar bg="light" expand="lg" className="navbar-welcome-page">
+                    <Navbar bg="light" expand="lg" className="navbar-welcome-page navbar-expand-lg">
                     <Navbar.Brand className="navbar-brand-small" href="/">Bronte Sewell</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
