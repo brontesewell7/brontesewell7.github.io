@@ -52,7 +52,7 @@ import website10 from "../../images/website4.png"
 import website11 from "../../images/website11.png"
 import website12 from "../../images/website12.png"
 
-
+import me from'../../images/me.jpg'
 
 
 
@@ -440,26 +440,40 @@ class WebPage extends Component {
                     </div>
                 <br></br>
                 <br></br>
-                <div className="contact">
+                <div >
                 <br></br>
                 <br></br>
-                <div class="container">
+
+                <div>
                     <div class="row">
-                        <div class="col-lg">
-                            <div id="send-gmail-contact"> 
-                                <h5 className="contact-options">Email me on your Gmail:</h5>
-                            < ReactContactForm to="jumpinggirlnz@icloud.com" />
-                            </div>                    
-                        </div>
-                        <div class="col-lg">
-                        <h3 id="contact-title">Contact Me</h3>
-                        <br/>
-                        <h4 className="contact-info">Email: brontsewell7@gmail.com</h4>
-                        <h4 className="contact-info">Location: San Francisco, California</h4>
-                        <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
-                        </div>
+
+                    <Col lg={5}>
+                        <img src={me} class="me-img" />
+                        </Col>
+                        <Col lg={7}>
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <Col lg={7}>
+                                    <h3 id="contact-title">Contact Me</h3>
+                                    <br/>
+                                    <h4 className="contact-info">Email: brontsewell7@gmail.com</h4>
+                                    <h4 className="contact-info">Location: San Francisco, California</h4>
+                                    <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
+                                    </Col>
+                                    <Col lg={4}>
+                                            <div id="send-gmail-contact"> 
+                                                <h5 className="contact-options">Email me on your Gmail:</h5>
+                                            < ReactContactForm to="jumpinggirlnz@icloud.com" />
+                                            </div>                    
+                                        </Col>
+                                </div>
+                            </div>
+                        </Col>
                     </div>
                 </div>
+
+
 
                 <br></br>
                 <br></br>
