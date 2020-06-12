@@ -76,15 +76,15 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <span className="social-icon-web-1"/>
-                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="github" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
+                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="github" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://github.com/Brontesewell" size="40" />
                 <span className="social-icon-web"/>
-                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="mail" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
+                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="mail" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=brontsewell7@gmail.com" size="40" />
                 <span className="social-icon-web"/>
-                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="youtube" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
+                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="youtube" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.youtube.com/channel/UC_qvG6jGkO9D9qRsBgPDIrQ?view_as=subscriber" size="40" />
                 <span className="social-icon-web"/>
-                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
+                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.linkedin.com/in/bronte-sewell-1bb78a199/" size="40" />
                 <span className="social-icon-web"/>
-                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://some-website.com/my-social-media-url" size="40" />
+                <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.instagram.com/horse_girl_nz/" size="40" />
                 </div>   
                   
             <div className="about-div">
@@ -441,8 +441,7 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <div >
-                <br></br>
-                <br></br>
+        
 
                 <div>
                     <div class="row">
@@ -458,8 +457,8 @@ class WebPage extends Component {
                                     <div class="contact-divs">
                                         
                                             <div id="send-gmail-contact"> 
-                                                <h5 className="contact-options">Email me on your Gmail:</h5>
-                                            < ReactContactForm to="jumpinggirlnz@icloud.com" />
+                                                <h5 className="contact-options">OR Email me on your Gmail:</h5>
+                                            < ReactContactForm to="brontsewell7@gmail.com" />
                                             </div>                    
                                         <div class="contact-text">   
                                             <h3 id="contact-title">Contact Me</h3>
@@ -468,26 +467,24 @@ class WebPage extends Component {
                                             <h4 className="contact-info">Location: San Francisco, California</h4>
                                             <h4 className="contact-info">Phone Number: +1 (818)877-8154</h4>
                                         </div>
+                                      
                                     </div>
                                    
                                 {/* </div>
                             </div>
-                        </Col> */}
+                         </Col> */}
                     </div>
                 </div>
 
 
 
+               
+                <br></br>
+                <p style={{textAlign: 'center'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
+                         <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
                 <br></br>
                 <br></br>
-                <br></br>
-                <button style={{marginLeft: '42%'}} type="button" class="btn btn-outline-dark" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-
+               
                 </div>
       
             </div>
