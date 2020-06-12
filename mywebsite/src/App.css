@@ -85,7 +85,7 @@
 
 
 #quote-over-images{
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 700px;
   text-align: center;
@@ -4039,68 +4039,6 @@ a:hover, a:active, a:focus {
   padding-bottom: 80px;
 }
 
-
-/*---------------------------------------
-  Home section              
------------------------------------------*/
-
-#home {
-  background: url('./images/home-bg.jpg') 50% 0 repeat-y fixed;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-   align-items: center;
-  height: 75vh;
-  text-align: center;
-  position: relative;
-  margin: 82px 12px 0 12px;
-}
-
-.home-wrapper {
-  background: rgba(250,250,250,0.8);
-  padding: 32px 12px;
-}
-
-
-/*---------------------------------------
-  About section              
------------------------------------------*/
-
-#about {
-  padding-top: 100px;
-}
-
-#about .col-md-4 img {
-  border-radius: 5px;
-  margin-bottom: 28px;
-}
-
-#about .col-md-4 a {
-  background: #e8e8e8;
-  border-radius: 8px;
-  color: #000000;
-  padding: 6px 12px;
-  display: inline-block;
-  margin-bottom: 40px;
-}
-
-#about .col-md-4 a:hover {
-  background: #000000;
-  color: #ffffff;
-}
-
-#about .about-thumb {
-  background: #ffffff;
-  border-radius: 5px;
-  padding: 42px 32px;
-}
 
 
 /*---------------------------------------
