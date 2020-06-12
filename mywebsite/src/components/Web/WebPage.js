@@ -5,16 +5,12 @@ import { Link } from "react-router-dom";
 import WebNav from './WebNav'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import {Col, Button} from 'react-bootstrap'
-// import photoparenting from '../../photoparenting.jpeg'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
-
-import ScrollableAnchor from 'react-scrollable-anchor'
-import FadeIn from 'react-fade-in';
 import Fade from 'react-reveal/Fade';
 import Reveal from 'react-reveal/Reveal';
-
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 
 import website5 from '../../images/website5.png'
 import work1 from '../../images/work-1.jpg'
@@ -78,6 +74,7 @@ class WebPage extends Component {
         return (
             <div >
                 <WebNav/>
+                     <Fade>
                 <ScrollableAnchor id={'section1'}>
                 <div id="web-top-image">
                 <div className="container-web-title">
@@ -100,6 +97,7 @@ class WebPage extends Component {
                 </div> 
                 </div>
                 </ScrollableAnchor>
+                </Fade>
                 <ScrollableAnchor id={'section2'}>
                   <div></div>
                 </ScrollableAnchor>
@@ -115,7 +113,7 @@ class WebPage extends Component {
                     <div class="row">
                     <Col md={4} className="fancy">
                         
-
+                    <Fade>
                    
                         <h4 className="skills-title">Languages</h4>
                         <ul>
@@ -143,10 +141,11 @@ class WebPage extends Component {
                             <li>API's</li>
                             <li>And More...</li>
                         </ul>
-                       
+                        </Fade>
                     </Col>
 
                     <Col md={7} className="about">
+                    <Fade>
                         <h2 id="about-title">About Me</h2>
                         <br/>
                         <p id="about-text">Firstly some background so that you understand where I am coming from.  I am an American 
@@ -158,7 +157,9 @@ class WebPage extends Component {
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
                                 and more. Examples are below.</p>
                             
-                                <a href='#section3'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
+                                <a href='#section3'><Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a>
+                                <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
+                                </Fade>
                         </Col>
                     </div>
                 </div>
@@ -178,6 +179,7 @@ class WebPage extends Component {
                 <div class="container small">
                     <div class="row">
                     <Col md={7} className="about-small">
+                    <Fade>
                         <h2 id="about-title">About Me</h2>
                         <br/>
                         <p id="about-text">My Name is Bronte Sewell.  I am currently based in San Francisco but
@@ -190,13 +192,14 @@ class WebPage extends Component {
                                 and more. Examples are below.</p>
                             
                                 <a href='#section5'> <Button variant="secondary" className="mt-3 mr-2">Contact Me</Button></a> <a href='#section4'> <Button variant="secondary" className="mt-3">My Portfolio</Button></a>
+                                </Fade>
                         </Col>
                         
                     <Col md={4} className="fancy-small">
                         
                     <br></br>
             <br></br>
-            <br></br>
+            <br></br><Fade>
                    
                         <h4 className="skills-title">Languages</h4>
                         <ul>
@@ -224,7 +227,7 @@ class WebPage extends Component {
                             <li>API's</li>
                             <li>And More...</li>
                         </ul>
-                       
+                        </Fade>
                     </Col>
 
                     </div>
@@ -265,6 +268,7 @@ class WebPage extends Component {
                     <div class="row">
 
                     <Col lg={6}>
+                    <Fade>
                         <h2 id="about-title">Currently Working on</h2>
                         <h4><i>PG Parenting</i></h4>
                         <br/>
@@ -281,13 +285,16 @@ class WebPage extends Component {
                             parenting advisors for the past 30 years and have led parenting courses World
                             Wide with great success.
                             </p>
+                            </Fade>
                         </Col>
                         <Col lg={6}>
                             <div className="parenting">
                             {/* <div className="parenting-shadow"></div>
                             <div className="parenting-2shadow"></div>
                             <img id="parenting-img" src={website5}/> */}
+                            <Fade right>
                             <img id="img-current" src={currentimg} />
+                            </Fade>
                             </div>
                         </Col>
                     </div>
@@ -307,55 +314,81 @@ class WebPage extends Component {
                                     <br></br>
                 <br></br>
                 
-               
+                <Fade>
                 <h2 id="services-title">Services</h2>
-
+                </Fade>
                 <br></br>
                 <div class="container">
                     <div class="row">
                         <div class="col-md service-div">
+                        <Fade bottom>
                         <h4 id="services-subtitle"> Wordpress Development</h4>
+                        </Fade>
                         <i class="service-icons fab fa-wordpress"></i> 
+                        <Fade bottom>
                         <p id="text-current-p">From commercial websites to personal portfolios, I
                         can develop responsive & fully-functional Wordpress websites to serve your business or personal needs.</p>
+                        </Fade>
                         </div>
                         <div class="col-md service-div">
+                        <Fade bottom>
                         <h4 id="services-subtitle">  Full Stack Web Application</h4>
+                        </Fade>
                         <i class="service-icons fas fa-code"></i>
+                        <Fade bottom>
                         <p id="text-current-p">The best way to save time, avoid errors, & get the most from your 
                         investment is to hire a proven full-stack web developer that can handle the entire process 
                         from concept & ideation to finished product.</p>
+                        </Fade>
                         </div>
                         <div class="col-md service-div">
+                        <Fade bottom>
                                  <h4 id="services-subtitle">Web Maintenance</h4>
+                                 </Fade>
                                  <i class="service-icons fas fa-wrench"></i> 
+                                 <Fade bottom>
                                  <p id="text-current-p">Helping businesses across the globe improve the performance
                                   and security of their websites. Whether you’re looking for a monthly, hourly, or 
                                   after-hours website maintenance I am here for you.</p>
+                         </Fade>
                                  </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md service-div">
+                        <Fade bottom>
                         <h4 id="services-subtitle"> Mobile Application</h4>
+                        </Fade>
                         <i class="service-icons fas fa-mobile-alt"></i>
+                        <Fade bottom>
                         <p id="text-current-p">You get to hire a mobile app developer who understands multiple aspects 
                         of mobile application development including user-experience, design, performance, and security.</p>
+                        </Fade>
                         </div>
                         <div class="col-md service-div">
+                        <Fade bottom>
                                  <h4 id="services-subtitle">UX/UI</h4>
+                                 </Fade>
                         <i class="service-icons fab fa-adobe"></i>
+                        <Fade bottom>
                                  <p id="text-current-p">I brainstorm, strategize and materialize your idea to deliver 
                                  your business outcome by helping you build an engaging product easily and quickly! 
                                  Constantly keeping up with new trends and modern tools.</p>
+                                 </Fade>
                         </div>
                         <div class="col-md service-div">
+                        <Fade bottom>
                         <h4 id="services-subtitles">Photography & Videography</h4>
+                        </Fade>
+                        
                         <i class="service-icons fas fa-camera"></i>
+                        
+                        <Fade bottom>
                         <p id="text-current-p">Whether you want a romantic couple photoshoot, a Instagram photoshoot, a Family photoshoot, Photo Edits,
                          Videos / Films, Photoshop edits or more then I can provide professional Services
                         (Awarded Photographer of the year for my Area).</p>
+                        </Fade>
                         </div>
                     </div>
                 </div>
@@ -369,15 +402,19 @@ class WebPage extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
+                <Fade >
                 <h2 id="port-title">Portfolio</h2>
 
                 <h2 id="port-title-sub-small">Photography</h2>
+                </Fade>
                         <div class="photos-p-small">
+                        <Fade>
                             <img className="photography" src={photo1}/>
                             <img className="photography" src={photo2}/>
                             <img className="photography" src={photo6}/>
                             <img className="photography" src={photo3}/>
                             <img className="photography" src={photo12}/>
+                           
                             <img className="photography" src={photo17}/>
                             <img className="photography" src={photo4}/>
                             <img className="photography" src={photo5}/>
@@ -395,6 +432,7 @@ class WebPage extends Component {
                             <img className="photography" src={photo19}/>
                             <img className="photography" src={photo8}/>
                             <img className="photography" src={photo16}/>
+                            </Fade>
                         </div>
                 
 <section id="work" class="parallax-section">
@@ -402,9 +440,10 @@ class WebPage extends Component {
           <div class="row">
 
                <div class="col-md-12 col-sm-12">
-           
                     <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+               <Fade>
                     <h2 id="port-title-sub">Website Design and Development</h2>
+                    </Fade>
                          <p class="text-center">Websites available on Request</p>
                     </div>
                </div>
@@ -413,27 +452,27 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                    
                     <div class="work-thumb">
-                         <a href="#" class="image-popup">
+                         
                               <img src={website2} class="img-responsive" alt="Photography"/>
-                         </a>
+                         
                     </div>
                   
                </div>
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                 
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website10}class="img-responsive" alt="Fine Arts"/>
-                         </a>
+                         
                     </div>
                   
                </div>
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
                    
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website5} class="img-responsive" alt="Logo Design"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -441,9 +480,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
                    
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website1} class="img-responsive" alt="Logo Design"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -454,9 +493,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                 
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website4}class="img-responsive" alt="Fine Arts"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -464,18 +503,18 @@ class WebPage extends Component {
             <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
              
                  <div class="work-thumb">
-                      <a href='#' class="image-popup">
+                      
                            <img src={website12}class="img-responsive" alt="Fine Arts"/>
-                      </a>
+                      
                  </div>
                
             </div>
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                  
                  <div class="work-thumb">
-                      <a href="#" class="image-popup">
+                      
                            <img src={website11} class="img-responsive" alt="Cinematography"/>
-                      </a>
+                      
                  </div>
                  
             </div>
@@ -486,9 +525,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                  
                     <div class="work-thumb">
-                         <a href="#" class="image-popup">
+                         
                               <img src={website3} class="img-responsive" alt="Cinematography"/>
-                         </a>
+                         
                     </div>
                     
                </div>
@@ -496,9 +535,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                 
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website6}class="img-responsive" alt="Fine Arts"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -506,9 +545,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
                    
                     <div class="work-thumb">
-                         <a href='#' class="image-popup">
+                         
                               <img src={website9} class="img-responsive" alt="Logo Design"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -516,9 +555,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                    
                     <div class="work-thumb">
-                         <a href="#" class="image-popup">
+                         
                               <img src={website8} class="img-responsive" alt="Photography"/>
-                         </a>
+                         
                     </div>
                   
                </div>
@@ -526,9 +565,9 @@ class WebPage extends Component {
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                  
                     <div class="work-thumb">
-                         <a href="#" class="image-popup">
+                         
                               <img src={website7} class="img-responsive" alt="Cinematography"/>
-                         </a>
+                         
                     </div>
                     
                </div>
@@ -538,24 +577,41 @@ class WebPage extends Component {
           </div>
      </div>
 </section>
-
+<Fade >
                     <h2 id="port-title-subs">Photography</h2>
+                    </Fade>
                         <div class="photos-p">
+                        <Fade >
                             <img className="photography" src={photo1}/>
+                            
                             <img className="photography" src={photo2}/>
+                            
                             <img className="photography" src={photo6}/>
+                            
                             <img className="photography" src={photo3}/>
+                            
                             <img className="photography" src={photo12}/>
+                            
                             <img className="photography" src={photo17}/>
+                            
                             <img className="photography" src={photo4}/>
+                            
                             <img className="photography" src={photo5}/>
+                            
                             <img className="photography" src={photo7}/>
+                            
                             <img className="photography" src={photo20}/>
+                            
                             <div class="photo-div-inside">
+                            
                                 <img className="photography2" src={photo15}/>
+                                
                                 <img className="photography" src={photo18}/>
+                                
                                 <img className="photography1" src={photo13}/>
+                                
                                 <img className="photography3" src={photo21}/>
+                                
                                 <img className="photography4" src={photo9}/>
                             </div>
                             <img className="photography" src={photo10}/>
@@ -563,6 +619,7 @@ class WebPage extends Component {
                             <img className="photography" src={photo19}/>
                             <img className="photography" src={photo8}/>
                             <img className="photography" src={photo16}/>
+                                </Fade>
                         </div>
                     <br></br>
                                     <br></br><br></br>
@@ -623,7 +680,7 @@ class WebPage extends Component {
                                   
                                                         
                 
-
+                                        <ScrollUpButton/>
 
                
                 <br></br>
