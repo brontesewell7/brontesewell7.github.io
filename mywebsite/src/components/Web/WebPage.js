@@ -270,7 +270,7 @@ class WebPage extends Component {
                             chat rooms with Action Cables to build a parenting community.  
                             
                             <br/> <br/>
-                            The curriculum was created by Stephanie and Mark Sewell who have been in professional
+                            The curriculum was created by Stephanie and Mark Sewell who have been professional
                             parenting advisors for the past 30 years and have led parenting courses World
                             Wide with great success.
                             </p>

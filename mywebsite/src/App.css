@@ -257,7 +257,8 @@ font-weight: 200;
   .text-eq {
     margin-left: 10%;
     margin-right: 10% !important;
-    margin-top: 30% !important;
+    margin-top: 100% !important;
+    background-color: rgba(175, 175, 175, 0.7) !important;
   }
 }
 

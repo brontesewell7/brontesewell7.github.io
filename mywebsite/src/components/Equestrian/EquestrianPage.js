@@ -27,7 +27,7 @@ class EquestrianPage extends Component {
                 <div id="equestrian-bg">
                      <div class="text-eq">
                     <h1 id="comming">Coming Soon...</h1>
-                    <button type="button" class="btn btn-light button-back" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
+                    <button type="button" class="btn btn-dark button-back" onClick={()=> this.props.history.push('/')}>Back to Welcome Page</button>
                     </div>
                 </div>
 
