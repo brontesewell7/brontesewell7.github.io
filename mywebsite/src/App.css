@@ -267,13 +267,15 @@ font-weight: 200;
   font-family: 'Abril Fatface', cursive;
   color: rgb(59, 59, 58) !important;
   text-align: center;
+  font-size: 37px;
+  margin-bottom: -20px;
 }
 
 #port-title-sub{
   font-family: 'Abril Fatface', cursive;
   color: rgb(59, 59, 58) !important;
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
