@@ -9,15 +9,17 @@ import LandingPage from './components/LandingPage'
 function App(props) {
   
   return (
-      <Router>
+      // <Router>
            
-        <Switch>
-          <Route exact path='/' component={LandingPage}/>
-          <Route exact path='/equestrian' component={EquestrianPage} />
-          <Route exact path='/web-development' component={WebPage} />
-        </Switch>
+      //   <Switch>
+      //     <Route exact path='/' component={LandingPage}/>
+      //     <Route exact path='/equestrian' component={EquestrianPage} />
+      //     <Route exact path='/web-development' component={WebPage} />
+      //   </Switch>
 
-      </Router>
+      // </Router>
+      <WebPage />
+
   );
 }
 
