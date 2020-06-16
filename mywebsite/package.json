@@ -20,6 +20,7 @@
     "react-scrollable-anchor": "^0.6.1",
     "react-scrolling-color-background": "^1.0.2",
     "react-social-icons": "^4.1.0",
+    "react-tooltip": "^4.2.7",
     "social-media-icons-react": "^1.0.10"
   },
   "scripts": {
