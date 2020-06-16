@@ -52,7 +52,7 @@ import website11 from "../../images/website11.png"
 import website12 from "../../images/website12.png"
 
 import me from'../../images/me.jpg'
-
+import topphoto from '../../images/me.png'
 
 
 
@@ -99,8 +99,7 @@ class WebPage extends Component {
             <div className="about-div">
             <div className="about-blur">
                 
-                <br></br>
-            <br></br>
+                
             <br></br>
             <br></br>
                 
@@ -109,7 +108,7 @@ class WebPage extends Component {
                     <Col md={4} className="fancy">
                         
                     <Fade>
-                   
+                    <br></br>
                         <h4 className="skills-title">Languages</h4>
                         <ul>
                             <li>Javascript</li>

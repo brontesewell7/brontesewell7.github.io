@@ -28,9 +28,9 @@ class WebNav extends Component {
        
 
         return (
-            <nav id="wecome-navbar">
+            <nav>
 
-                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "#fafafa" : "transparent", paddingTop: '20px', paddingRight: '10px'}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-lg">
+                    <Navbar style={{backgroundColor: window.scrollY > 10 ? "#7a7a7a" : "transparent", paddingTop: '0px', paddingRight: '10px'}} bg="none" expand="lg" className="navbar-welcome-page fixed-top navbar-expand-lg">
                     <Navbar.Brand className="navbar-brand" href='#section1'>Bronte Sewell</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
