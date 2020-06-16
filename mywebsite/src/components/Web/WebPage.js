@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import WebNav from './WebNav'
 import ScrollableAnchor from 'react-scrollable-anchor'
-import {Col, Button} from 'react-bootstrap'
+import {Col, Button, Carousel} from 'react-bootstrap'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 import ReactContactForm from 'react-mail-form';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
@@ -59,7 +59,7 @@ import website11 from "../../images/website11.png"
 import website12 from "../../images/website12.png"
 
 
-
+import quotes from '../../quotes.png'
 
 
 
@@ -79,9 +79,7 @@ class WebPage extends Component {
                 <div id="web-top-image">
                 <div className="container-web-title">
                 <div id="quote-over-images"><h2 className="quote-home-image">Full Stack Web Developer and Designer</h2>
-                <a href='#section2' id="button-image-home">Learn More</a>
-                <br></br>
-                <br></br>
+               <div class="icons-social">
                 <span className="social-icon-web-1"/>
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="github" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://github.com/Brontesewell" size="40" />
                 <span className="social-icon-web"/>
@@ -92,8 +90,11 @@ class WebPage extends Component {
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.linkedin.com/in/bronte-sewell-1bb78a199/" size="40" />
                 <span className="social-icon-web"/>
                 <SocialMediaIconsReact borderColor="rgba(245,241,241,0.25)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(118,114,114,1)" backgroundColor="#dbdbdb" iconSize="8" roundness="20%" url="https://www.instagram.com/horse_girl_nz/" size="40" />
+                </div>
+                <br></br>
+                
+                <a href='#section2' id="button-image-home">Learn More</a>
                 </div>  
-
                 </div> 
                 </div>
                 </ScrollableAnchor>
@@ -154,7 +155,7 @@ class WebPage extends Component {
                             until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
                             mine, programming and completed Flatiron’s Full-Stack Engineering Bootcamp in San Francisco.
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
-                                and more. Examples are below.</p>
+                                and more.</p>
                             
                                 <a href='#section3'><button  id="button-image-about" >Contact Me</button></a>
                                 <a href='#section4'> <button id="button-image-about" >My Portfolio</button></a>
@@ -188,7 +189,7 @@ class WebPage extends Component {
                             until I broke my Tibia in early 2019. <br/> <br/> As a result, I decided to follow another passion of 
                             mine, programming and completed Flatiron’s Full-Stack Engineering Bootcamp in San Francisco.
                             <br/> <br/> Since then I have had many clients building Full-Stack Web Apps, Mobile Apps, Wordpress Websites
-                                and more. Examples are below.</p>
+                                and more.</p>
                             
                                 <a href='#section3'><button  id="button-image-about" >Contact Me</button></a>
                                 <a href='#section4'> <button id="button-image-about" >My Portfolio</button></a>
@@ -269,7 +270,7 @@ class WebPage extends Component {
 
                     <Col lg={6}>
                     <Fade>
-                        <h2 id="about-title">Currently Working on</h2>
+                        <h2 id="about-title">Currently Working on </h2>
                         <h4><i>PG Parenting</i></h4>
                         <br/>
                         <p id="text-current-p">PG Parenting is a full-stack 
@@ -409,30 +410,53 @@ class WebPage extends Component {
                 </Fade>
                         <div class="photos-p-small">
                         <Fade>
-                            <img className="photography" src={photo1}/>
+                        <img className="photography" src={photo1}/>
+                            
                             <img className="photography" src={photo2}/>
+                            
                             <img className="photography" src={photo6}/>
+                            
                             <img className="photography" src={photo3}/>
+                            
                             <img className="photography" src={photo12}/>
-                           
+                            
+                            <img className="photography" src={photo29}/>
                             <img className="photography" src={photo17}/>
+                            
                             <img className="photography" src={photo4}/>
-                            <img className="photography" src={photo5}/>
                             <img className="photography" src={photo7}/>
-                            <img className="photography" src={photo20}/>
+                            
+                            <img className="photography" src={photo5}/>
+                            
+                            
+                            
                             <div class="photo-div-inside">
+                            
                                 <img className="photography2" src={photo15}/>
-                                <img className="photography" src={photo18}/>
-                                <img className="photography1" src={photo13}/>
+                                
+                                <img className="photography11" src={photo18}/>
+                                
+                                <img className="photography1" src={photo27}/>
+                                
                                 <img className="photography3" src={photo21}/>
+                                
                                 <img className="photography4" src={photo9}/>
                             </div>
-                            <img className="photography" src={photo10}/>
                             <img className="photography" src={photo14}/>
                             <img className="photography" src={photo19}/>
+                            <img className="photography" src={photo10}/>
                             <img className="photography" src={photo8}/>
                             <img className="photography" src={photo16}/>
-                            </Fade>
+
+                            <img className="photography555" src={photo13}/>
+                            <img className="photography55" src={photo24}/>
+                            <img className="photography5" src={photo25}/>
+                            <img className="photography55" src={photo28}/>
+                            <img className="photography55" src={photo23}/>
+                            <img className="photography55" src={photo20}/>
+                            {/* <img className="photography" src={photo26}/>
+                            <img className="photography" src={photo22}/> */}
+                             </Fade>
                         </div>
                 
 <section id="work" class="parallax-section">
@@ -647,16 +671,53 @@ class WebPage extends Component {
                                     <br></br>
                     </div>
                     </ScrollableAnchor>
-                <br></br>
+               
                 <ScrollableAnchor id={'section5'}>
-                <br></br>
+                <div/>
                 </ScrollableAnchor>
                 <div >
         
+                <Carousel>
+                    <Carousel.Item>
+                    <img class="quotes-img" src={quotes} />
+                        <Carousel.Caption>
+                        <h3 className="quote-text">"Bronte has been incredible to work with. 
+                        She has done a great job of creating exactly what we wanted. Easy to work 
+                        with, very responsive & works hard. She met all of our expectations and had a lot of 
+                        insight into User Experience. You can clearly see that she loves what she does."</h3>
+                        <h1 className="quote-text-title">PG Parenting</h1>
+                        <h3 class="stars-q">★ ★ ★ ★ ★</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img class="quotes-img" src={quotes} />
 
-              
-                    
+                        <Carousel.Caption>
+                        <h3 className="quote-text">"Bronte has always been my go-to Photographer.
+                        She has a great eye for a photo and is very creative. I've taken a range of professional,
+                        Social Media and creative photos. All of which have exceeded my expectations. 
+                        She always edits them extremely well through Photoshop and Lightroom."</h3>
+                        <h1 className="quote-text-title"> Riley</h1>
+                        <h3 class="stars-q">★ ★ ★ ★ ★</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img class="quotes-img" src={quotes} />
 
+                        <Carousel.Caption>
+                        <h3 className="quote-text">"Thanks to her knowledge my 
+                        website looks great and functions really good in only a short period of time. 
+                        I recommend anyone that is looking for a custom website to give her a call! 
+                        Very positive Experience and she is super flexible and easy to work with!"</h3>
+                        <h1 className="quote-text-title">Kirstin</h1>
+                        <h3 class="stars-q">★ ★ ★ ★ ★</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    </Carousel>                    
+                    <br></br>
+                    {/* <br></br>
+                    <br></br> */}
+                    <br></br>
                                     <div class="contact-divs">
                                         
                
@@ -675,7 +736,7 @@ class WebPage extends Component {
                                       
                                     </div>
 
-
+                                    <div class="contact-small-div">
                                     <div class="container contact-small">
                                         <div class="row">
                                                   <div class="col-md">          
@@ -701,12 +762,12 @@ class WebPage extends Component {
                                              <br></br>
                                              <br></br>
                                         </div>                   
-                                    
+                                        </div>
                                   
                                                         
                 
                                         <ScrollUpButton/>
-
+<div className="bottom">
                
                 <br></br>
               
@@ -727,11 +788,11 @@ class WebPage extends Component {
                          </div>
                          <br></br>
                 <br></br>
-                <p style={{textAlign: 'center', marginLeft: '4%', marginRight: '4%'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
+                <p classname="p-bottom" style={{textAlign: 'center', marginLeft: '4%', marginRight: '4%'}}>Website Built from Scratch using React, Bootstrap, CSS, HTML, Styled Components and more!</p>
                 <br></br>
                
                 </div>
-      
+                </div>
             </div>
         );
     }

@@ -85,7 +85,8 @@
   background-position: center;
   background-size: cover;
 	width: 100%;
-  height: 700px;
+  height: 670px;
+
 }
 
 .cont {
@@ -114,7 +115,7 @@
   width: 100%;
   height: 700px;
   text-align: center;
-  margin-top: -10%;
+  margin-top: -12.4%;
 }
 
 .conts{
@@ -125,11 +126,12 @@
 .quote-home-image{
   color:#ccc;
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Roboto Condensed', sans-serif;
   /* -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; */
   margin-bottom: 30px;
   font-family: 300 !important;
-  margin-top: 16rem;
+  margin-top: 16.5rem;
 }
 
 #button-image-home{
@@ -139,7 +141,7 @@
   border-color: #ccc;
   border-radius: 2px;
   padding-top: 4px;
-  padding-bottom: 5px;
+  padding-bottom: 7px !important;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
@@ -218,6 +220,9 @@ li{
   margin-left: 5px !important;
 }
 
+.icons-social{
+  margin-top: -10px
+}
 
 
 #about-text{
@@ -294,8 +299,20 @@ font-weight: 200;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact-small{
+  .contact-small, .contact-small-div{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bottom{
+    background-color: rgb(78, 78, 78) !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .p-bottom{
+    color: white;
   }
 }
 
@@ -570,6 +587,71 @@ margin-left: 4%;
 }
 
 
+.quote-text-title{
+color: #424242;
+margin-bottom: 20px;
+}
+
+.stars-q{
+  color: #424242;
+  letter-spacing: 0px !important
+}
+
+.quote-text{
+color: rgb(110, 109, 109);
+font-size: 1.3rem;
+}
+
+.quotes-img{
+  width: 100%;
+  height: 370px;
+}
+
+@media only screen and (max-width: 911px) {
+  .quotes-img{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 839px) {
+  .quotes-img{
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .quotes-img{
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  .quotes-img{
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  .quote-text{
+    font-size: 1.2rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 385px) {
+  .quote-text{
+    font-size: 1.1rem !important;
+  }
+}
+
+.contact-small{
+  margin-top: -48px;
+  padding-top: 48px;
+}
+
+.contact-small-div{
+  background-color: rgb(78, 78, 78);
+}
 
 #send-gmail-contact-small a{
   background-color: #6C757D; 
@@ -580,7 +662,7 @@ margin-left: 4%;
   border: none;
   cursor: pointer;
   border-radius: 3px;
-  margin-left: 13%;
+  margin-left: 17%;
 }
 
 #send-gmail-contact-small input{
@@ -596,7 +678,7 @@ margin-left: 4%;
   border-style: solid;
   border-color: #5a5a5c;
   border-radius: 3px;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 
 
@@ -678,7 +760,7 @@ float: left;
 
 #contact-title-small{
   font-family: 'Abril Fatface', cursive;
-  color: black;
+  color: rgb(240, 239, 239);
   text-align: center;
  
 }
@@ -686,7 +768,7 @@ float: left;
 .contact-info-small{
   font-family: sans-serif;
   font-weight: 400;
-  color: black;
+  color: rgb(240, 239, 239);
   text-align: center;
 }
 
@@ -695,7 +777,7 @@ float: left;
   font-weight: 400;
   font-size: 19px;
   padding-bottom: 10px;
-  color: black;
+  color: rgb(240, 239, 239);
   text-align: center;
   padding-top: 40px;
   margin-left: -30px;
@@ -4345,3 +4427,5 @@ footer .dash-line {
   background-color: #f4f4f4;
   
 }
+
+
