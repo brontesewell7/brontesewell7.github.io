@@ -35,7 +35,14 @@ import photo18 from "../../images/photo212.JPG"
 import photo19 from "../../images/photo382.JPG"
 import photo20 from "../../images/photo964.JPG"
 import photo21 from "../../images/photo7373.JPG"
-
+import photo22 from '../../images/Facetune_16-06-2020-08-58-25.JPG'
+import photo23 from '../../images/IMG_2115.jpeg'
+import photo24 from '../../images/IMG_5361.PNG'
+import photo25 from '../../images/IMG_5370.JPG'
+import photo26 from '../../images/IMG_5837.JPG'
+import photo27 from '../../images/IMG_2229.jpeg'
+import photo28 from '../../images/IMG_4421.jpg'
+import photo29 from '../../images/IMG_0140.jpg'
 
 import currentimg from "../../images/currentimg.png"
 
@@ -51,8 +58,6 @@ import website10 from "../../images/website4.png"
 import website11 from "../../images/website11.png"
 import website12 from "../../images/website12.png"
 
-import me from'../../images/me.jpg'
-import topphoto from '../../images/me.png'
 
 
 
@@ -599,33 +604,42 @@ class WebPage extends Component {
                             
                             <img className="photography" src={photo12}/>
                             
+                            <img className="photography" src={photo29}/>
                             <img className="photography" src={photo17}/>
                             
                             <img className="photography" src={photo4}/>
+                            <img className="photography" src={photo7}/>
                             
                             <img className="photography" src={photo5}/>
                             
-                            <img className="photography" src={photo7}/>
                             
-                            <img className="photography" src={photo20}/>
                             
                             <div class="photo-div-inside">
                             
                                 <img className="photography2" src={photo15}/>
                                 
-                                <img className="photography" src={photo18}/>
+                                <img className="photography11" src={photo18}/>
                                 
-                                <img className="photography1" src={photo13}/>
+                                <img className="photography1" src={photo27}/>
                                 
                                 <img className="photography3" src={photo21}/>
                                 
                                 <img className="photography4" src={photo9}/>
                             </div>
-                            <img className="photography" src={photo10}/>
                             <img className="photography" src={photo14}/>
                             <img className="photography" src={photo19}/>
+                            <img className="photography" src={photo10}/>
                             <img className="photography" src={photo8}/>
                             <img className="photography" src={photo16}/>
+
+                            <img className="photography555" src={photo13}/>
+                            <img className="photography55" src={photo24}/>
+                            <img className="photography5" src={photo25}/>
+                            <img className="photography55" src={photo28}/>
+                            <img className="photography55" src={photo23}/>
+                            <img className="photography55" src={photo20}/>
+                            {/* <img className="photography" src={photo26}/>
+                            <img className="photography" src={photo22}/> */}
                                 </Fade>
                         </div>
                     <br></br>

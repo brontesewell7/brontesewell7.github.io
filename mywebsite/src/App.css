@@ -56,10 +56,17 @@
   border: 1px solid rgb(141, 140, 140) !important;
 }
 
+@media only screen and (max-width: 991px) {
+  .nav-links{
+    margin-top: -7px !important;
+  }
+}
+
 
 .nav-links{
   font-size: 20px;
   color: #ccc !important;
+  margin-top: 10px;
 }
 
 .navbar-brand{
@@ -362,22 +369,36 @@ font-weight: 200;
   width: 20%;
 }
 
+.photography55{
+  width: 20.6%;
+}
+
 .photography1{
-  width: 18.21%;
+  width: 19.7%;
+}
+
+.photography11{
+  width: 19.7%;
 }
 
 .photography2{
-  width: 24.7%;
+  width: 24.3%;
 }
 
 .photography3{
-  width: 14.3%;
+  width: 14%;
 }
 
 .photography4{
-  width: 22.6%;
+  width: 22.2%;
 }
 
+.photography5{
+  width: 9.1%;
+}
+.photography555{
+  width: 8.4%;
+}
 
 .photos-p{
   margin-left: 10%;
